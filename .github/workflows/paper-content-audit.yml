@@ -1,0 +1,45 @@
+name: 论文原件只读核验
+on:
+  push:
+    branches: [paper-content-review-20260921]
+    paths: [.github/workflows/paper-content-audit.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: 提取正式目录原件和文本，不修改论文
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import shutil, zipfile, json, hashlib
+          from xml.etree import ElementTree as ET
+          root = Path('新建文件夹/新建文件夹')
+          out = Path('paper-audit-artifact')
+          out.mkdir()
+          ns = {'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+          for folder in sorted(root.iterdir()):
+              if not folder.is_dir() or folder.name.startswith(('.', '_')):
+                  continue
+              for src in sorted(folder.glob('*.docx')):
+                  shutil.copy2(src, out/src.name)
+                  with zipfile.ZipFile(src) as z:
+                      xml = ET.fromstring(z.read('word/document.xml'))
+                      paragraphs = []
+                      for i,p in enumerate(xml.findall('.//w:p', ns)):
+                          text = ''.join(t.text or '' for t in p.findall('.//w:t', ns))
+                          paragraphs.append({'index':i, 'text':text})
+                      report = {'path':str(src), 'sha256':hashlib.sha256(src.read_bytes()).hexdigest(), 'paragraphs':paragraphs}
+                      (out/(src.stem+'.json')).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+                  print('原件:', src, '段落数:', len(paragraphs), 'SHA256:', report['sha256'])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper-originals-and-text
+          path: paper-audit-artifact/
+          retention-days: 7
