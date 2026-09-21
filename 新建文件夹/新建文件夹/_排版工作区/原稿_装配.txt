@@ -1,0 +1,286 @@
+### FILE C:/Users/15515/Desktop/09-文档资料/新建文件夹/装配式施工质量管理问题及优化研究——以市政项目为例/装配式施工质量管理问题及优化研究——以市政项目为例.docx
+images(drawing/pict)=12  oMath=0  fields(instrText)=0
+### SECTIONS
+ sect0 start=NEW_PAGE (2) w=595.4 h=842.0 L=85.0 R=85.0 T=72.0 B=72.0 gut=5.7 hdrD=42.5 ftrD=49.6 first_diff=False
+   docGrid {'//schemas.openxmlformats.org/wordprocessingml/2006/main}linePitch': '312', '//schemas.openxmlformats.org/wordprocessingml/2006/main}charSpace': '0'}
+   header/default: ''
+   footer/default: ''
+   hdr_linked=False ftr_linked=False
+ sect1 start=NEW_PAGE (2) w=595.4 h=842.0 L=70.9 R=51.0 T=72.0 B=72.0 gut=25.5 hdrD=42.5 ftrD=49.6 first_diff=False
+   docGrid {'//schemas.openxmlformats.org/wordprocessingml/2006/main}linePitch': '312', '//schemas.openxmlformats.org/wordprocessingml/2006/main}charSpace': '0'}
+   hdr_linked=True ftr_linked=True
+ sect2 start=NEW_PAGE (2) w=595.3 h=841.9 L=90.0 R=90.0 T=72.0 B=72.0 gut=0.0 hdrD=42.5 ftrD=49.6 first_diff=False
+   docGrid {'//schemas.openxmlformats.org/wordprocessingml/2006/main}type': 'lines', '//schemas.openxmlformats.org/wordprocessingml/2006/main}linePitch': '312', '//schemas.openxmlformats.org/wordprocessingml/2006/main}charSpace': '0'}
+   hdr_linked=True ftr_linked=True
+ sect3 start=NEW_PAGE (2) w=595.3 h=841.9 L=90.0 R=90.0 T=72.0 B=72.0 gut=0.0 hdrD=42.5 ftrD=49.6 first_diff=False
+   docGrid {'//schemas.openxmlformats.org/wordprocessingml/2006/main}type': 'lines', '//schemas.openxmlformats.org/wordprocessingml/2006/main}linePitch': '312', '//schemas.openxmlformats.org/wordprocessingml/2006/main}charSpace': '0'}
+   header/default: '\\t炎黄职业技术学院毕业论文\\t第 {PAGE}1 页  共 {NUMPAGES}30 页'
+   hdr_linked=False ftr_linked=True
+### BODY
+[P] '开题报告'                                                     | Normal | align=CENTER (1) pPr={'f': {}, 'sz': 22.0, 'b': 1} 
+[T0] rows=6 cols=8 :: 姓名||学号||班级||论文指导老师| || 装配式施工质量管理问题及优化研究——以市政项目为|装配式施工质量管理问题及优化研究——以市政项目为|装配式施工质量管理问题及优化研究——以市政项目为|装配式施工质量管理问题及优化研究——以市政项目为|装配式施工质量管理问题及优化研究——以市政项目为|装配式施工质量管理问题及
+[P] ''                                                         | Normal | pPr={'f': {}} 
+[P] ''                                                         | Normal | pPr={'f': {}} 
+[P] '炎黄职业技术学院毕业论文任务书'                                          | Normal | align=CENTER (1) pPr={'f': {}, 'sz': 16.0, 'b': 1} 
+[P] '系 计算机系专业 计算机应用技术 班级         姓名        学号           '      | Normal | pPr={'f': {}, 'sz': 12.0} 
+[T1] rows=5 cols=1 :: 课题名称：装配式施工质量管理问题及优化研究——以 || 本课题主要内容： 本课题以绵阳综合管廊项目为依托
+[P] ''                                                         | Normal | pPr={'f': {}, 'sz': 12.0} 
+[P] '                               指导老师_______________'       | Normal | align=CENTER (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '1800'} pPr={'sz': 12.0} 
+[P] '                               职务（称）_______________'      | Normal | ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '1800'} pPr={'sz': 12.0} 
+[P] '                                                 2025年9月' | Normal | pPr={'f': {}, 'sz': 12.0} 
+[P] ''                                                         | Normal |  
+[P] '炎黄职业技术学院毕业论文中期检查指导表'                                      | Normal | align=CENTER (1) pPr={'f': {}} 
+[T2] rows=6 cols=6 :: 姓名||系别|计算机系|班级| || 论文题目||||指导老师|
+[P] ''                                                         | Normal |  
+[P] ''                                                         | Normal | pPr={'f': {}, 'sz': 20.0} 
+[P] ''                                                         | Normal | bef=6.0 aft=2.4 pPr={'f': {}, 'sz': 20.0} BM
+[P] ''                                                         | Normal | bef=6.0 aft=2.4 pPr={'f': {}, 'sz': 53.0} IMG
+[P] ''                                                         | Normal | bef=6.0 aft=2.4 pPr={'f': {}, 'sz': 24.0} 
+[P] '毕  业  论  文'                                               | Normal | align=CENTER (1) bef=6.0 aft=2.4 pPr={'f': {}, 'sz': 53.0} 
+[P] ''                                                         | Normal | align=CENTER (1) pPr={'f': {}, 'sz': 24.0} 
+[T3] rows=5 cols=4 :: 姓  名:||学 号：| || 系 (院):|计算机系|计算机系|计算机系
+[P] ''                                                         | Normal | ls=254000/EXACTLY (4) pPr={'f': {}, 'sz': 16.0} IMG
+[P] '指导者：                               '                      | Normal | ls=254000/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '1205', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '400'} pPr={'f': {}, 'sz': 16.0, 'b': 1} 
+[P] '      (姓 名)            (专业技术职务)'                          | Normal | align=CENTER (1) ls=190500/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '782'} pPr={'f': {}} 
+[P] ''                                                         | Normal | align=CENTER (1) ls=152400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '780'} pPr={'f': {}} IMG
+[P] '评阅者：                               '                      | Normal | ls=254000/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '1205', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '400'} pPr={'f': {}, 'sz': 15.0, 'b': 1} 
+[P] '      (姓 名)            (专业技术职务)'                          | Normal | align=CENTER (1) ls=190500/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '782'} pPr={'f': {}} 
+[P] ''                                                         | Normal | align=CENTER (1) ls=228600/EXACTLY (4) pPr={'f': {}, 'sz': 16.0} 
+[T4] rows=1 cols=4 :: 2025|年|9|月
+[P] '摘 要：装配式建造可把大量湿作业转移到工厂，减少现场用工与城市干扰，是综合管廊工业化建造的重要方向。本文以绵阳综' | Normal | ls=355600/EXACTLY (4) bef=None aft=3.6 pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '关键词：  装配式，综合管廊，施工质量，质量管理，市政工程'                            | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | align=LEFT (0) ls=1.5/ONE_POINT_FIVE (1) pPr={'sz': 12.0, 'c': '000000'} 
+[P] 'Abstract：Prefabricated construction can transfer a large' | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] 'Key words：prefabricated, utility tunnel, construction qu' | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'b': 1, 'c': '000000'} 
+[P] '目  录'                                                     | Normal | align=CENTER (1) ls=1.5/ONE_POINT_FIVE (1) fl=36.1 L=-45.0 R=-43.7 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '-900', '//schemas.openxmlformats.org/wordprocessingml/2006/main}right': '-874', '//schemas.openxmlformats.org/wordprocessingml/2006/main}rightChars': '-416', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '723', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '200'} pPr={'f': {}, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1.绪论\t9'                                                  | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1.1研究背景\t9'                                               | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1.2研究目的与意义\t9'                                            | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1.3国内外研究现状\t10'                                           | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1.4研究内容与技术路线\t10'                                         | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2.相关理论基础\t11'                                             | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2.1综合管廊工程概述\t11'                                          | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2.2装配式施工技术\t12'                                           | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2.3施工质量管理理论\t12'                                          | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2.4相关标准与规范\t13'                                           | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3.绵阳综合管廊项目概况\t13'                                         | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3.1项目基本情况\t13'                                            | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3.2工程重难点\t14'                                             | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3.3装配式构件设计与拆分方案\t15'                                      | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3.4施工组织与质量管理体系\t15'                                       | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3.5节段拼装精度控制与防水构造要求\t16'                                   | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4.装配式施工质量问题调查与成因分析\t17'                                   | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4.1质量问题调查方法\t17'                                          | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4.2主要质量问题识别\t18'                                          | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4.3问题成因分析\t20'                                            | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.质量管理体系优化对策\t20'                                         | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.1组织管理优化\t21'                                            | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.2工艺技术优化\t22'                                            | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.3质量控制手段优化\t23'                                          | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.4优化效果\t26'                                              | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '6.结论与展望\t27'                                              | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '6.1主要结论\t27'                                              | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '6.2展望\t28'                                                | Normal | ls=355600/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '420', '//schemas.openxmlformats.org/wordprocessingml/2006/main}leftChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '结论\t29'                                                   | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '致谢\t30'                                                   | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '参考文献\t29'                                                 | Normal | ls=355600/EXACTLY (4) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | align=LEFT (0) ls=1.5/ONE_POINT_FIVE (1) fl=24.0 L=-45.0 R=-43.7 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '-900', '//schemas.openxmlformats.org/wordprocessingml/2006/main}right': '-874', '//schemas.openxmlformats.org/wordprocessingml/2006/main}rightChars': '-416', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '200'} pPr={'f': {}, 'sz': 12.0} 
+[P] '1  绪论'                                                    | Normal | ls=1.5/ONE_POINT_FIVE (1) bef=7.8 aft=7.8 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hanging': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hangingChars': '653'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '1．1  研究背景'                                                | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '城市的现代化运行越来越依赖水、电、通信、热力、燃气、雨污水等各类市政管线，传统直埋敷设方式下，管线扩容、维修都要' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '装配式建造方式近年来在国内房屋建筑领域推进较快，其优势在于把大量模板、混凝土浇筑、振捣等湿作业转移到工厂，能够减' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2026年2月，中建二局承建的绵阳综合管廊项目主体结构全面完工。项目位于四川省绵阳市，管廊总长度约25.15 k' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '装配式综合管廊虽然具备构件工厂化、节段拼装快速、防水构造可重复施工等优点，但同时也带来新的质量管理难题：预制节段' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1．2  研究目的与意义'                                             | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '本研究的目的有三个层面。第一，对项目实际暴露出的施工质量问题作系统梳理，把零散的问题清单转化为可分类、可追溯的结' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '研究的意义在于：一是工程实践层面的参考价值，绵阳综合管廊作为大型装配式管廊的代表性案例，其质量管理的具体做法和教' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1．3  国内外研究现状'                                             | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '国外在综合管廊领域起步较早，欧洲、日本、新加坡等城市已经形成了较为成熟的规划、设计与管理体系。日本的共同沟建设强' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在装配式施工质量管理方面，研究者从不同角度作了大量工作。有研究从工程实践的角度梳理了装配式综合管廊全机械化拼装施' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '1．4  研究内容与技术路线'                                           | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '本文主要开展四部分工作。第一，介绍绵阳综合管廊项目的基本情况、工程重难点、装配式构件设计与拆分方案以及施工组织方' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2  相关理论基础'                                                | Normal | ls=1.5/ONE_POINT_FIVE (1) bef=7.8 aft=7.8 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hanging': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hangingChars': '653'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '2．1  综合管廊工程概述'                                            | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '综合管廊是建于城市地下的隧道式市政基础设施，将电力、通信、给水、燃气、热力、雨污水等管线集中敷设于一个结构空间内' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '综合管廊的断面形式主要分为矩形和圆形两类，矩形断面因空间利用率高、施工方便、与各类管线接口相容性好而在市政工程中' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2.1.4  综合管廊的施工方法选择'                                       | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '综合管廊的施工方法主要有明挖现浇法、明挖预制拼装法、盾构法和顶管法等。明挖现浇法技术成熟、适应性强，适用于场地开' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在实际工程中，往往根据沿线不同的地质条件、环境要求和施工条件，分段采用不同的施工方法，形成组合式的施工方案。对于' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2．2  装配式施工技术'                                             | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '装配式施工的核心思想是把结构分解为可在工厂预制、在现场拼装的标准化构件，通过可靠的连接构造实现整体结构性能。装配' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '装配式综合管廊的构件拆分应当满足三个基本要求：一是构件规格统一，便于工厂批量化生产和运输；二是单片构件重量与吊装' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '装配式施工对现场组织的要求较高。节段从进场到就位涉及卸车、二次转运、就位、初步定位、精确调整、临时固定、节段连接' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2．3  施工质量管理理论'                                            | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '施工质量管理是工程项目管理的重要组成部分，其核心是把质量目标和质量控制要求贯穿到施工组织、人员管理、材料管理、工' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '对装配式市政工程而言，施工质量管理的重点与传统现浇工程有所不同。传统现浇工程的质量控制重点是模板、钢筋、混凝土浇' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2.3.4  市政工程施工质量验收的基本程序'                                   | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '市政工程的施工质量验收通常按照检验批、分项工程、分部工程和单位工程四个层次逐级进行。检验批是施工过程中质量验收的' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '装配式综合管廊工程的验收除遵循一般市政工程的验收程序外，还需针对预制构件的特点增加相应的验收内容，包括预制构件出' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2．4  相关标准与规范'                                             | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '装配式综合管廊施工涉及多本现行国标和行标。《城市综合管廊工程技术规范》是管廊工程的总体技术依据[1]。《混凝土结' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3  绵阳综合管廊项目概况'                                            | Normal | ls=1.5/ONE_POINT_FIVE (1) bef=7.8 aft=7.8 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hanging': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hangingChars': '653'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '3．1  项目基本情况'                                              | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '绵阳综合管廊项目位于四川省绵阳市，由中建二局牵头投资建设，是目前全国最大的装配式管廊工程。项目管廊总长度约25.' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '项目施工覆盖绵阳市多个区段，沿线穿越多种地质条件和复杂的城市建成环境。根据公开报道，项目施工初期面临基坑深度大、' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '2021年6月，项目现场成立了绵阳市首支由央企组建的市政公共应急救援队，并开展了安全观摩与应急演练活动。2026' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3.1.4  管廊断面形式与空间布置'                                       | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '综合管廊的断面形式主要分为矩形断面和圆形断面两类。矩形断面空间利用率高，便于管线的分层布置和后期检修，是市政综合' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '管廊内部的空间布置通常遵循以下原则：一是管线按性质分区布置，如将电力电缆与通信电缆布置在一侧，给水管道和热力管道' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3．2  工程重难点'                                               | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '项目的工程重难点可以概括为四个方面。第一，地质与水文条件复杂。项目穿越多种地层，部分区段地下水位高，局部基坑深度' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '这些重难点决定了项目不能简单套用一般现浇管廊的施工组织模式，而必须针对预制拼装的特点设计专门的工艺方案和质量控制' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3．3  装配式构件设计与拆分方案'                                        | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '项目采用"全分片预制装配式结构"，即每一标准节段被分解为若干片预制构件，构件在工厂集中浇筑成型后运至现场拼装。这' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在构件拆分方面，项目采用6 m标准模数的设计思路，6 m一节的节段长度是综合考虑工厂生产能力、运输车辆规格、现场' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在构件防水构造方面，项目作为国内较早大规模采用新型防水材料的综合管廊之一，采用了预铺反粘与自愈合高分子防水卷材复' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '3．4  施工组织与质量管理体系'                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '项目采用"工厂标准化预制+现场精准吊装"模式，从源头上把构件质量交给工厂，把现场工作集中到吊装、拼装和节点处理上' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '现场组织方面，项目创新采用了"流水作业+跳舱施工"的组织方式。流水作业使每一节段的施工工序从进场到就位保持稳定节' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '质量管控方面，项目深度融合BIM技术构建全流程的数据模型，对管廊主体结构、机电安装、管线布局等环节实施数字化精细' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '图3–1给出了装配式综合管廊施工质量控制的主要环节。'                               | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | align=CENTER (1) ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} IMG
+[P] '图3–1  装配式综合管廊施工质量控制主要环节'                                  | Normal | align=CENTER (1) ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0'} pPr={'f': {}, 'c': '000000'} 
+[P] '3．5  节段拼装精度控制与防水构造要求'                                     | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '装配式综合管廊的节段拼装精度直接关系到结构的整体受力和防水性能。在拼装精度控制方面，工程上通常要求相邻节段之间的' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在防水构造方面，装配式综合管廊的防水体系由结构自防水、接缝防水和附加防水层共同构成。结构自防水依靠预制混凝土自身' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4  装配式施工质量问题调查与成因分析'                                      | Normal | ls=1.5/ONE_POINT_FIVE (1) bef=7.8 aft=7.8 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hanging': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hangingChars': '653'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '4．1  质量问题调查方法'                                            | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '对装配式综合管廊施工质量问题的调查，本文采用"现场记录+资料分析+专家访谈"相结合的方法。现场记录包括项目实施期' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '基于上述方法收集到的质量问题信息，按照问题类型、严重程度和发生频次进行编码和归类，最终整理形成"装配式综合管廊施' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '表4–1  装配式综合管廊施工典型质量问题汇总'                                  | Normal | align=CENTER (1) ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0'} pPr={'f': {}, 'c': '000000'} 
+[T5] rows=6 cols=3 :: 问题类别|主要表现|成因归类 || 构件进场|尺寸偏差超限、表面裂缝、预埋件偏移|材料、人员
+[P] '4.1.4  质量问题调查的组织与实施'                                      | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '质量问题的调查需要系统组织，才能保证调查结果的全面性和准确性。本项目组织了由施工单位质检人员、监理单位和构件供应' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '调查过程中，对发现的问题按照发生环节、问题性质、严重程度和发生频次进行分类记录，形成质量问题清单。对于反复出现的' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '调查结束后，联合调查组对问题清单进行了汇总分析，识别出高频问题和关键控制点，为后续的成因分析和对策制定提供了依据' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4.1.5 质量问题的分级与判别标准'                                       | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '对识别出的质量问题进行分级，有助于分清主次、合理配置管理资源。按问题的严重程度，可将质量问题划分为一般问题、严重' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '按问题的发生频次，又可将质量问题划分为偶发问题和频发性问题。偶发问题通常由特定的偶然因素引起，针对性解决即可；频' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4．2  主要质量问题识别'                                            | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '按问题发生的环节分类，识别出的质量问题主要集中在以下几个方面。'                          | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '构件进场环节。主要表现为预制节段进场验收把关不严，部分构件存在尺寸偏差超限、表面裂缝、预埋件位置偏移等问题。少数' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '节段吊装与就位环节。主要表现为节段吊装定位偏差超出设计允许范围，部分节段存在初始就位偏差过大、二次调整后仍未达标' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '节段接缝防水环节。预铺反粘卷材的铺设、搭接宽度、收头处理等是质量控制的重点。少数节段出现卷材搭接宽度不足、卷材与' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '灌浆套筒连接环节。套筒连接的密实度直接决定结构整体性。少数灌浆作业存在排气不畅、灌浆料配合比偏差、灌浆不饱满等问' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '多专业穿插施工环节。主体结构施工与机电安装、监控布线、附属设施施工同步推进时，容易出现工序交叉污染、相互干扰等问' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4.2.6  质量问题的常用检测与判别方法'                                    | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '针对装配式综合管廊施工中常见的质量问题，工程上通常采用以下几类检测与判别方法。对于构件尺寸偏差，一般采用钢尺、全' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '对于灌浆套筒连接的密实度，常用的检测方法包括内窥镜检查、X射线检测和冲击回波法等。内窥镜检查通过预留孔道直接观察' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '对于节段接缝的防水性能，一般在施工完成后进行淋水试验或蓄水试验，观察接缝部位是否存在渗漏现象。对于采用遇水膨胀止' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4.1.6 质量问题记录与信息反馈'                                        | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '质量问题的有效管理离不开完整的记录与及时的信息反馈。项目建立了统一的质量问题记录表格，对发现的问题统一编号、统一' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '同时，建立了质量问题信息的反馈渠道，使一线作业人员发现的问题能够及时上报，质检人员的检查结果能够及时传达给相关责' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '4．3  问题成因分析'                                              | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '对上述质量问题，按照"人、机、料、法、环"五要素分析法进行归因，结果如下。'                    | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '人员因素。部分一线作业人员对预制拼装工艺不熟悉，对节段定位、防水卷材铺设、灌浆作业等关键工序的操作要点掌握不到位' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '机械因素。节段吊装设备的能力与构件重量匹配良好，但三维扫描设备的精度受现场光线、粉尘等环境影响较大，部分时段扫描' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '材料因素。预制构件整体质量稳定，但少数批次构件的原材料受季节性供应波动影响，质量离散性略大于其他批次。灌浆料、防' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '方法因素。部分施工工艺规程对节段拼装精度的容差要求偏宽，未充分体现装配式工程"高精装配"的理念。少数工序的技术交' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '环境因素。雨季长、地下水位高对基础施工和节段拼装构成挑战。多专业穿插施工的环境组织协调不到位，容易出现工序冲突。' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '综合以上分析，人员因素和方法因素是导致质量问题的主要原因，分别占问题总数的35%和30%；机械因素、材料因素和环' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5  质量管理体系优化对策'                                            | Normal | ls=1.5/ONE_POINT_FIVE (1) bef=7.8 aft=7.8 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hanging': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hangingChars': '653'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '针对第4章识别出的质量问题与成因，项目从组织管理、工艺技术和质量控制手段三个层面系统性地实施了优化。三个层面相互' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5．1  组织管理优化'                                              | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '组织管理优化的关键是把质量责任落实到具体的岗位和环节，使每一道工序都有明确的责任人和可追溯的记录。'        | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.1.1  建立构件批次追溯制度'                                        | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '项目为每一片预制构件建立了唯一的编码标识，编码与构件的生产批次、生产日期、检验记录、运输车辆、到场时间、存放位置' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '批次追溯制度的实施需要信息化的支撑。项目借助BIM模型与二维码技术，把构件的编码信息与模型中的构件一一关联，现场' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.1.2  推行驻厂监理制度'                                          | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '传统的监理模式是构件到场后才进行验收，此时质量问题已经形成，只能被动处理。项目改为推行驻厂监理制度，由监理单位派' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '驻厂监理的重点工作包括：原材料进厂检验的见证、钢筋绑扎和预埋件安装的隐蔽验收、混凝土浇筑过程的旁站、构件出厂前的' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.1.3  完善工序交接与举牌验收制度'                                     | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '项目建立了严格的工序交接制度，每一道工序完成后必须经过自检、专检和交接检三道关卡，质量记录签字齐全后方可进入下一' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '举牌验收制度的价值在于把抽象的"验收合格"转化为具体的、可见的、可追溯的记录，既强化了验收人员的责任意识，也为后' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5．2  工艺技术优化'                                              | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '工艺技术优化是项目质量提升的核心手段，重点围绕"BIM+三维扫描"和新型防水工艺两条主线展开。'          | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.2.1  BIM与三维扫描相结合的偏差动态修正工艺'                              | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '"BIM+三维扫描施工偏差动态修正工艺"是项目的重要技术成果。其工作原理是：在节段预制阶段即建立BIM模型，完整' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '这一工艺相比传统的全站仪测量有三个明显优势：一是测量效率高，一次扫描即可获取构件表面的大量点云数据，避免了逐点测' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.2.2  预铺反粘与自愈合高分子防水卷材复合工艺'                               | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '防水质量是装配式综合管廊的生命线。项目创新性地采用了预铺反粘与自愈合高分子防水卷材复合工艺，作为国内首例大规模采' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '预铺反粘卷材铺设在节段接缝位置，其特点是卷材与后浇混凝土能够形成可靠的粘结，避免了传统防水做法中卷材与基层粘结不' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.2.3  构件拆分与吊装工艺优化'                                       | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '项目对6 m标准模数的构件拆分方案进行了优化，在综合考虑工厂生产能力、运输车辆规格、现场吊装设备能力和接缝防水可' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在灌浆工艺方面，项目改进了灌浆料的配合比，优化了灌浆压力和灌注顺序，并增加了排气孔的设置，有效解决了灌浆不饱满和' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.2.6  环境因素对施工质量的影响与应对'                                   | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '环境因素是装配式施工中不可忽视的变量，主要包括温度、湿度、降雨和地下水位等。温度方面，高温会加速混凝土坍落度损失' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '降雨是露天施工的主要干扰因素。综合管廊多为明挖施工，雨季施工时基坑内易积水，影响拼装作业和质量。对此，需要提前做' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '地下水位高是本项目面临的突出困难。地下水会对基坑稳定性产生影响，也可能影响节段接缝的防水效果。施工中通常采用降水' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5．3  质量控制手段优化'                                            | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '5.3.1  建设数字化质量管控平台'                                       | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '项目基于BIM模型和三维扫描数据构建了项目级的质量管理平台，所有质量记录、检查数据、整改通知和复检结果都在平台上' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '数字化平台的另一个价值是数据分析功能。平台能够对积累的质量数据进行统计分析，识别出质量问题的高发部位、高发时段和' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.3.2  关键工序三检制与举牌验收'                                      | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在5.1.3节工序交接制度的基础上，项目对关键工序进一步强化了"三检制"：作业班组自检、质检员专检、监理验收检，' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.3.5  人员培训与能力建设'                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '人员因素是影响装配式施工质量的关键变量，加强人员培训是提升质量管理水平的基础性工作。培训内容应覆盖三个层面：一是' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '培训方式上，可采用集中授课、现场演示、案例分析和师带徒等多种形式相结合。对于关键岗位人员，应实行持证上岗制度，考' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.3.3  质量分析与改进的常态化机制'                                     | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '项目建立了定期质量分析会制度，每周召开质量分析会，对近期发生的质量问题分类梳理，找出系统性的薄弱环节，制定改进措' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '同时，项目还建立了质量改进的激励机制，对提出有效改进建议的班组和个人给予奖励，调动了一线人员参与质量管理的积极性' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.3.4  质量改进效果的评估方法'                                       | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '优化对策实施后，需要对其效果进行客观评估，以判断改进措施是否有效。常用的评估方法包括对比分析法、统计过程控制法和' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '统计过程控制法则通过控制图对质量指标的波动情况进行监控，判断施工过程是否处于受控状态。当质量指标在控制限内随机波' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '质量成本分析法从经济角度评价质量管理的成效，将质量成本划分为预防成本、鉴定成本、内部损失成本和外部损失成本四类。' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.3.6  质量问题的整改闭环管理'                                       | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '发现质量问题只是第一步，关键在于问题的整改是否形成闭环。项目建立了质量问题的整改闭环管理机制，具体流程为：问题发' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在问题登记环节，对发现的质量问题进行详细记录，包括问题部位、问题描述、发现时间和发现人等信息，形成问题台账。在原' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '在复检验证环节，由质检人员对整改结果进行复检，确认问题已消除或已降至可接受范围。对于复检不合格的，应重新分析原因' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5.3.7 持续改进机制的建立'                                          | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '质量管理不是一次性工作，而是需要持续改进的过程。项目在优化措施取得成效的基础上，进一步建立了质量持续改进机制，将' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '这种循环往复的改进机制，使质量管理工作能够不断适应项目推进过程中出现的新情况、新问题，避免了"一次性整改、过后又' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '5．4  优化效果'                                                | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '通过上述优化对策的实施，项目质量管理水平得到显著提升，主要技术指标改善明显。'                   | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '预埋件安装合格率达到100%。通过严格落实进场检验、批次追溯和举牌验收制度，预埋件安装合格率达到100%。这一指' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '结构质量实现零缺陷。项目实现了"结构质量零缺陷"的目标。这一目标的实现不仅体现在竣工验收的一次通过率上，更体现在' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '新工艺应用效果显著。BIM与三维扫描相结合的施工偏差动态修正工艺有效降低了节段拼装的累计偏差；新型防水材料的应用' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '综合效益明显。质量问题的减少降低了返工成本和工期延误成本；新工艺的应用提高了施工效率；项目作为全国最大装配式管廊' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '图5–1给出了上述优化对策的整体框架。'                                      | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | align=CENTER (1) ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} IMG
+[P] '图5–1  装配式综合管廊施工质量管理优化对策框架'                                | Normal | align=CENTER (1) ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '0'} pPr={'f': {}, 'c': '000000'} 
+[P] '6  结论与展望'                                                 | Normal | ls=1.5/ONE_POINT_FIVE (1) bef=7.8 aft=7.8 ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}left': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hanging': '1306', '//schemas.openxmlformats.org/wordprocessingml/2006/main}hangingChars': '653'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '6．1  主要结论'                                                | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '通过对绵阳综合管廊项目装配式施工质量管理实践的分析，可以得出以下几点认识。'                    | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '第一，装配式综合管廊的质量管理应当把控制重心前移到构件的生产和出厂验收环节，把现场工作集中到吊装、拼装和节点处理' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '第二，"人、机、料、法、环"五要素分析法对装配式综合管廊的质量问题归因是适用的，本案例中人员因素和方法因素是导致' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '第三，BIM与三维扫描相结合的施工偏差动态修正工艺能够有效降低节段拼装的累计偏差，是大型装配式管廊工程应当重点推' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '第四，组织管理、工艺技术和质量控制手段三个层面的协同优化是装配式工程质量管理提升的有效路径，单纯依靠某一方面的努' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '6．2  展望'                                                  | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 14.0, 'b': 1, 'c': '000000'} 
+[P] '受资料获取条件的限制，本文主要基于公开报道的工程信息开展分析，未能获取项目内部的具体检测数据，研究的深度受到一定' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '随着装配式市政工程规模的持续扩大和工艺技术的不断成熟，配套的质量管理体系也将日趋完善，装配式市政工程的整体质量管' | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Body Text Indent | PBBefore ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '结  论'                                                     | Normal | align=CENTER (1) ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '本文以绵阳综合管廊项目为研究对象，针对该项目管廊总长度约25.15 km、配套市政道路27.14 km的全国最大' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '200'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '参 考 文 献'                                                  | Normal | align=CENTER (1) ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] '[1]  中华人民共和国住房和城乡建设部. 城市综合管廊工程技术规范: GB 50838-2015[S]. 北京' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[2]  中华人民共和国住房和城乡建设部. 装配式混凝土建筑技术标准: GB/T 51231-2016[S]. ' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[3]  国务院办公厅. 国务院办公厅关于大力发展装配式建筑的指导意见: 国办发〔2016〕71号[Z]. 20' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[4]  中建二局绵阳综合管廊项目主体结构全面完工[N/OL]. 腾讯新闻, 2026-02-25.'       | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[5]  中华人民共和国住房和城乡建设部. 装配式混凝土结构技术规程: JGJ 1-2014[S]. 北京: 中' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[6]  王伟. 城市综合管廊预制拼装施工技术[J]. 基层建设, 2019(3).'               | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[7]  崔宇, 柴维伟. 浅论预制装配式建筑施工技术研究与应用[A]. 建筑科技发展论坛[C]. 中国智慧工程' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[8]  姜莉. 装配式混凝土结构建筑设计与施工研究[J]. 工程建设与设计, 2023(13): 235-23' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[9]  中华人民共和国住房和城乡建设部. 混凝土结构工程施工质量验收规范: GB 50204-2015[S].' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[10]  中华人民共和国住房和城乡建设部. 装配式建筑评价标准: GB/T 51129-2017[S]. 北京' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[11]  中华人民共和国住房和城乡建设部. 建筑信息模型应用统一标准: GB/T 51212-2016[S].' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] '[12]  吕航, 闫晶, 李杨, 等. BIM技术在施工项目管理中的应用研究——以某图书馆为例[J]. 价值工' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '致  谢'                                                     | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=1.5/ONE_POINT_FIVE (1) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '480'} pPr={'f': {}, 'sz': 15.0, 'c': '000000'} 
+[P] '本论文是在指导老师的悉心指导下完成的。从选题的确定到实地调研的安排，再到成文的反复修改，指导老师都给予了具体而耐' | Normal | ls=279400/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '573'} pPr={'f': {}, 'sz': 12.0, 'c': '000000'} 
+[P] ''                                                         | Normal | ls=254000/EXACTLY (4) ind={'//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLine': '560', '//schemas.openxmlformats.org/wordprocessingml/2006/main}firstLineChars': '200'} pPr={'f': {}, 'sz': 14.0, 'c': '000000'} 
+[SECTPR]

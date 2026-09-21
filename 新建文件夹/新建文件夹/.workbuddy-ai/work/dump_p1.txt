@@ -1,0 +1,255 @@
+   0 sz=22.0 ea=None b=True al=CENTER (1) ls=None li=None fi=None  >> 开题报告
+   1 sz=None ea=None b=None al=None ls=None li=None fi=None  >> 
+   2 sz=None ea=None b=None al=None ls=None li=None fi=None  >> 
+   3 sz=16.0 ea=None b=True al=CENTER (1) ls=None li=None fi=None  >> 炎黄职业技术学院毕业论文任务书
+   4 sz=12.0 ea=None b=None al=None ls=None li=None fi=None  >> 系 计算机系专业 计算机应用技术 班级         姓名        学号           
+   5 sz=None ea=None b=None al=None ls=None li=None fi=None  >> 
+   6 sz=12.0 ea=None b=None al=CENTER (1) ls=None li=None fi=90.0  >>                                指导老师_______________
+   7 sz=12.0 ea=None b=None al=None ls=None li=None fi=90.0  >>                                职务（称）_______________
+   8 sz=12.0 ea=None b=None al=None ls=None li=None fi=None  >>                                                  2025年9月 10日
+   9 sz=None ea=None b=None al=None ls=None li=None fi=None  >> 
+  10 sz=16.0 ea=None b=True al=CENTER (1) ls=None li=None fi=None  >> 炎黄职业技术学院毕业论文中期检查指导表
+  11 sz=None ea=None b=None al=None ls=None li=None fi=None  >> 
+  12 sz=20.0 ea=方正小标宋简体 b=None al=None ls=None li=None fi=None  >> 
+  13 sz=None ea=None b=None al=None ls=None li=None fi=None  >> 
+  14 sz=30.0 ea=楷体_GB2312 b=None al=None ls=None li=None fi=None  >> 
+  15 sz=None ea=None b=None al=None ls=None li=None fi=None  >> 
+  16 sz=53.0 ea=方正小标宋简体 b=None al=CENTER (1) ls=None li=None fi=None  >> 毕  业  论  文
+  17 sz=None ea=None b=None al=CENTER (1) ls=None li=None fi=None  >> 
+  18 sz=10.0 ea=None b=None al=None ls=20.0 li=None fi=None  >> 
+  19 sz=15.0 ea=None b=True al=None ls=20.0 li=None fi=60.2  >> 指导者：                               
+  20 sz=None ea=None b=None al=CENTER (1) ls=15.0 li=None fi=39.1  >>       (姓 名)            (专业技术职务)
+  21 sz=10.0 ea=None b=None al=CENTER (1) ls=12.0 li=None fi=39.0  >> 
+  22 sz=15.0 ea=None b=True al=None ls=20.0 li=None fi=60.2  >> 评阅者：                               
+  23 sz=None ea=None b=None al=CENTER (1) ls=15.0 li=None fi=39.1  >>       (姓 名)            (专业技术职务)
+  24 sz=None ea=None b=None al=CENTER (1) ls=18.0 li=None fi=None  >> 
+  25 sz=None ea=None b=None al=LEFT (0) ls=20.0 li=None fi=None  >> 
+  26 sz=12.0 ea=宋体 b=True al=None ls=1.5 li=None fi=None  >> 摘 要：再生混凝土由废弃混凝土破碎、筛分后作骨料重新拌制而成，可缓解建筑固废堆存与天然砂石资源紧张。本文以广西某30层、高度接近100 m的
+  27 sz=None ea=None b=None al=None ls=1.5 li=None fi=None  >> 
+  28 sz=12.0 ea=宋体 b=True al=None ls=1.5 li=None fi=None  >> 关键词：  再生混凝土；装配式建筑；住宅项目；应用评价；再生骨料
+  29 sz=None ea=None b=None al=LEFT (0) ls=1.5 li=None fi=None  >> 
+  30 sz=None ea=None b=None al=LEFT (0) ls=1.5 li=None fi=None  >> 
+  31 sz=12.0 ea=Times New Roman b=True al=None ls=1.5 li=None fi=None  >> Abstract：Recycled aggregate concrete is produced by crushing and scree
+  32 sz=12.0 ea=Times New Roman b=True al=None ls=1.5 li=None fi=None  >> Key words：  recycled aggregate concrete; prefabricated building; resid
+  33 sz=None ea=None b=None al=None ls=1.5 li=None fi=None  >> 
+  34 sz=18.0 ea=黑体 b=True al=CENTER (1) ls=1.5 li=-45.0 fi=36.1  >> 目  录
+  35 sz=None ea=None b=None al=None ls=28.0 li=None fi=None  >> 
+  36 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 1  绪论	9
+  37 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 1．1  研究背景	9
+  38 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 1．2  研究目的与意义	10
+  39 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 1．3  国内外研究现状	10
+  40 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 1．4  研究内容与技术路线	11
+  41 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 2  再生混凝土与装配式建筑的基本理论	12
+  42 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 2．1  再生骨料与再生混凝土的定义与分类	12
+  43 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 2．2  再生混凝土的主要性能特征	13
+  44 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 2．3  装配式混凝土结构体系	14
+  45 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 2．4  再生混凝土应用的标准与规定	15
+  46 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 3  工程概况与再生混凝土应用方案	15
+  47 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 3．1  项目基本情况	15
+  48 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 3．2  结构体系与构件配置	16
+  49 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 3．3  再生混凝土的配合比与制备工艺	16
+  50 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 3．4  施工组织与质量控制措施	18
+  51 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 4  再生混凝土在装配式住宅中的应用评价	19
+  52 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 4．1  评价指标体系的构建	19
+  53 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 4．2  技术性能评价	21
+  54 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 4．3  施工适应性评价	22
+  55 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 4．4  经济与环境效益评价	24
+  56 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 4．5  评价结果分析	24
+  57 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 5  应用中存在的主要问题与优化对策	25
+  58 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 5．1  存在的主要问题	25
+  59 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 5．2  优化对策	27
+  60 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 6  结论与展望	28
+  61 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 6．1  主要结论	28
+  62 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=21.0 fi=None  TOC >> 6．2  展望	29
+  63 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 结论	30
+  64 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 致谢	33
+  65 sz=12.0 ea=宋体 b=None al=None ls=28.0 li=None fi=None  TOC >> 参考文献	31
+  66 sz=None ea=None b=None al=LEFT (0) ls=1.5 li=-45.0 fi=24.0  >> 
+  67 sz=15.0 ea=黑体 b=True al=None ls=1.5 li=65.3 fi=-65.3  >> 1  绪论
+  68 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 1．1  研究背景
+  69 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 城镇化的持续推进带来了两方面相互叠加的压力。一方面，旧城改造、棚户区拆迁和市政更新产生了体量巨大的建筑废弃物，其中废弃混凝土所占比例最高，长
+  70 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 装配式建筑则是建筑生产方式变革的另一条主线。构件在工厂预制、现场拼装的建造方式，能够把大量湿作业转移到工厂，减少现场用工和扬尘噪声，也有助于
+  71 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 不过两者结合的实际推进并不顺利。再生骨料表面附着旧砂浆，吸水率高、压碎值偏大，导致再生混凝土的拌合物工作性和力学性能较普通混凝土存在差距，且
+  72 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 2026年，广西一栋30层、高度接近100 m的公寓楼主体结构封顶。该项目规模化采用了再生骨料取代率为30%的再生混凝土，总用量达到1067
+  73 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 1．2  研究目的与意义
+  74 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 本研究的目的有两个层面。一是摸清再生混凝土在高层装配式住宅中应用的真实状态，包括它的配合比是怎么定的、强度性能达到什么水平、施工过程中遇到哪
+  75 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 从意义上看，首先是工程实践层面的参考价值。再生混凝土在高层住宅中的应用案例极少，公开可查的工程数据更少，本研究所依托的项目提供了较为完整的实
+  76 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 1．3  国内外研究现状
+  77 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 国外对再生混凝土的研究起步较早。二战后欧洲大量建筑废墟的处理需求推动了再生骨料的早期应用，随后美国、日本等国相继开展系统研究。日本在二十世纪
+  78 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 国内的研究在近二十年进展很快。肖建庄团队在再生混凝土的材料性能调控、结构安全低碳设计和绿色施工方面做了大量工作，提出了再生混凝土高性能化制备
+  79 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在构件层面，粘结性能是配筋设计的基础。杨海峰与肖建庄对再生混凝土与钢筋的粘结滑移性能进行了系统的试验和理论研究，从微观结构、组成与力学性能等
+  80 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 综合来看，已有研究在材料性能和构件受力方面积累较为充分，但把再生混凝土放到装配式住宅这一具体场景中，结合实际工程数据进行系统评价的研究相对不
+  81 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 1.3.4  再生混凝土在工程中的应用现状
+  82 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 从工程应用的发展历程看，再生混凝土的应用经历了由低值利用向结构应用逐步推进的过程。早期的再生骨料主要用于道路基层、垫层、砌块和回填等对性能要
+  83 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 近年来，再生混凝土的应用高度和规模不断提升，从多层建筑拓展到高层建筑，从非承重构件拓展到承重构件，从单一构件拓展到整体结构。这一转变的实现，
+  84 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 1．4  研究内容与技术路线
+  85 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 本文主要开展四部分工作。第一，梳理再生混凝土和装配式建筑的基本概念与技术规定，明确再生骨料的分级要求、再生混凝土的性能特征以及装配式混凝土结
+  86 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 技术路线上，本文采用文献分析与工程实证相结合的方法。文献分析用于确定评价指标和评价依据；工程实证则以项目的实际资料为主要数据来源，对可获得的
+  87 sz=15.0 ea=黑体 b=True al=None ls=1.5 li=65.3 fi=-65.3  >> 2  再生混凝土与装配式建筑的基本理论
+  88 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 2．1  再生骨料与再生混凝土的定义与分类
+  89 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生骨料是指由建（构）筑废物中的混凝土、砂浆、石、砖瓦等加工而成的骨料，按粒径可分为再生粗骨料和再生细骨料。国家标准《混凝土用再生粗骨料》规
+  90 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 按来源划分，再生骨料可以来自废弃混凝土构件、路面混凝土、砂浆块等不同母体材料，来源不同会直接影响骨料的性能。工程实践中最常见的是以废弃混凝土
+  91 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生混凝土则是指掺用再生骨料配制而成的混凝土。按照再生骨料取代天然骨料的比例不同，可分为部分取代和全部取代两类。本文研究的工程案例采用的是再
+  92 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 2.1.4  再生骨料的生产工艺与质量控制
+  93 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生骨料的生产通常包括分拣、破碎、筛分、除杂和分级等工序。分拣环节主要去除废弃混凝土中混入的木材、塑料、金属和杂物，保证原料的纯净度；破碎环
+  94 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生骨料的质量控制应贯穿生产全过程。原料环节应控制来源，避免使用受化学腐蚀或严重劣化的混凝土；生产环节应定期检查破碎设备和筛分设备的工作状态
+  95 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 2．2  再生混凝土的主要性能特征
+  96 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生混凝土的性能与普通混凝土的差异主要体现在以下几个方面。
+  97 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在力学性能方面，再生混凝土的抗压强度受再生骨料取代率、母体混凝土强度和配合比设计的影响显著。一般情况下，随着取代率提高，抗压强度呈下降趋势，
+  98 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在变形性能方面，再生混凝土的收缩和徐变一般大于普通混凝土。这是因为再生骨料吸水率高，混凝土内部可蒸发水分多，同时旧砂浆的存在使整体变形能力增
+  99 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在耐久性能方面，抗冻性、抗碳化性和抗氯离子渗透性是评价的重点。再生骨料表面旧砂浆和多孔隙结构使混凝土的渗透性增大，氯离子更易侵入，因此在有耐
+ 100 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在工作性能方面，再生骨料吸水率高的特点会直接影响拌合物的坍落度。若干骨料未经预湿直接拌合，会在搅拌和浇筑过程中继续吸水，导致坍落度损失加快、
+ 101 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 2．3  装配式混凝土结构体系
+ 102 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 装配式混凝土结构是装配式建筑的主要结构形式之一。《装配式混凝土建筑技术标准》对装配式混凝土建筑的术语、基本规定、材料、建筑设计、结构设计、构
+ 103 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 按结构体系划分，装配式混凝土结构主要包括装配整体式剪力墙结构、装配整体式框架结构、装配整体式框架-剪力墙结构等。住宅建筑中应用最广的是装配整
+ 104 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 评价装配式建筑装配化程度的核心指标是装配率。《装配式建筑评价标准》规定了装配率的计算方法和评价等级划分，从主体结构、围护墙和内隔墙、装修和设
+ 105 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 2.3.4  装配整体式剪力墙结构的连接构造
+ 106 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 装配整体式剪力墙结构中，预制构件之间的连接是决定结构整体性的关键。目前工程中常用的连接方式主要有灌浆套筒连接、浆锚搭接连接和后浇混凝土连接三
+ 107 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 连接节点的施工质量直接影响结构的整体性能。灌浆套筒连接中，灌浆料的配合比、灌浆压力和灌浆密实度是三个关键控制指标。灌浆不饱满会导致钢筋锚固长
+ 108 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 2．4  再生混凝土应用的标准与规定
+ 109 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 我国已初步建立起再生骨料和再生混凝土的标准体系。《再生骨料应用技术规程》规定了再生骨料在建筑工程中应用的技术要求，包括再生骨料的质量要求、再
+ 110 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 地方层面也在推进相关标准的制定。深圳市发布的《建筑废弃物再生产品应用工程技术规程》结合当地建筑废弃物产量大、再生利用需求迫切的特点，对建筑废
+ 111 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 质量验收方面，《混凝土结构工程施工质量验收规范》是混凝土结构工程验收的基本依据，再生混凝土结构同样应当执行该规范的有关规定，对混凝土强度、构
+ 112 sz=15.0 ea=黑体 b=True al=None ls=1.5 li=65.3 fi=-65.3  >> 3  工程概况与再生混凝土应用方案
+ 113 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 3．1  项目基本情况
+ 114 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 本文选取的工程案例位于广西，为一栋30层公寓楼，建筑高度接近100 m，主体结构于2026年封顶。项目规模化应用了再生骨料取代率为30%的再
+ 115 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 项目的技术支撑单位为广西大学肖建庄教授团队，参与实施的还包括中建二局、广西大学设计院、大通监理以及中建西部建设等单位，团队全流程参与了再生混
+ 116 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 需要说明的是，公开资料显示该项目采用的是现浇剪力墙结构体系，竖向承重构件和水平结构构件均使用了再生混凝土。就再生混凝土在装配式住宅中的推广应
+ 117 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 3．2  结构体系与构件配置
+ 118 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 项目采用剪力墙体系。在高层建筑中，剪力墙体系同时承担竖向承重和水平抗侧力的双重作用，这对混凝土的材料性能提出了比较高的要求，也是再生混凝土此
+ 119 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 从构件配置上看，竖向构件为剪力墙和框架柱，水平构件为楼盖梁板。项目在这一部分的处理方式是：竖向承重结构和水平结构均采用再生混凝土，即再生混凝
+ 120 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在装配式建筑中，住宅项目通常采用装配整体式剪力墙结构，竖向构件可采用预制剪力墙，水平构件则普遍采用预制叠合楼板、预制楼梯、预制阳台板和预制内
+ 121 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 3．3  再生混凝土的配合比与制备工艺
+ 122 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生混凝土的制备流程可以概括为：废弃混凝土回收—破碎—筛分—分级—预处理—配料—拌合—运输。其中前四个环节决定再生骨料的品质，预处理和配料环
+ 123 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在骨料来源环节，再生骨料的母体材料以拆除的废旧混凝土为主。母体混凝土的强度等级、服役年限和受污染程度都会影响再生骨料的性能，因此在工程应用中
+ 124 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在预处理环节，再生骨料吸水率高是需要重点解决的问题。工程上比较常用的做法有两种：一是对再生粗骨料进行提前喷淋预湿，使其达到饱和面干状态后再投
+ 125 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在配合比设计环节，除了控制水胶比之外，掺入矿物掺合料是改善再生混凝土性能的常用手段。粉煤灰、矿渣粉等掺合料的火山灰反应可以改善界面过渡区的结
+ 126 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在拌合与生产环节，项目由中建西部建设负责再生混凝土的生产供应，采用的是再生混凝土高性能化制备的技术路线，通过专用外加剂和性能调控技术来保证混
+ 127 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 3.3.4  再生骨料主要性能指标与配合比设计要点
+ 128 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在再生骨料的性能指标方面，工程应用通常重点关注颗粒级配、微粉含量、吸水率、压碎指标、表观密度和空隙率等几项。按《混凝土用再生粗骨料》的规定，
+ 129 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生粗骨料的吸水率通常明显高于天然碎石，这是再生骨料与天然骨料最显著的差异，也是配合比设计中必须考虑附加用水量的根本原因。压碎指标反映骨料本
+ 130 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在配合比设计方法上，再生混凝土通常采用"等强度、等坍落度"的设计思路，即在保证强度和施工和易性不低于同等级普通混凝土的前提下确定配合比参数。
+ 131 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 3．4  施工组织与质量控制措施
+ 132 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生混凝土在施工环节的质量控制重点与普通混凝土既有共性，也有其特殊之处。共性部分包括原材料的进场检验、配合比的试配与调整、坍落度的逐车检测、
+ 133 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 特殊之处主要体现在三个方面。第一是拌合物工作性的过程监控。再生骨料的含水率受堆存时间和天气影响明显，雨季和旱季的含水率差异可能导致坍落度出现
+ 134 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 项目在质量控制上还采取了另外一个值得关注的措施：在建筑结构内嵌入智能结构安全监测系统，对结构长期性能进行持续监测[4]。这一措施的意义在于，
+ 135 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0 <<FIG >> 图3–1给出了再生混凝土从原料到结构实体的全过程质量控制要点。
+ 136 sz=None ea=None b=None al=CENTER (1) ls=1.5 li=None fi=24.0  >> 
+ 137 sz=10.5 ea=宋体 b=None al=CENTER (1) ls=22.0 li=None fi=None <<FIG >> 图3–1  再生混凝土应用全过程质量控制要点
+ 138 sz=15.0 ea=黑体 b=True al=None ls=1.5 li=65.3 fi=-65.3  >> 4  再生混凝土在装配式住宅中的应用评价
+ 139 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 4．1  评价指标体系的构建
+ 140 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 对再生混凝土在装配式住宅中的应用效果进行评价，需要解决"评什么"和"怎么评"两个问题。从工程决策的实际需要出发，本文把评价内容划分为三个维度
+ 141 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第一个维度是技术性能，主要回答"能不能用"的问题，下设强度性能、变形性能、耐久性能和结构性能四个指标。强度性能以立方体抗压强度和轴心抗压强度
+ 142 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第二个维度是施工适应性，主要回答"好不好用"的问题，下设拌合物工作性、泵送与浇筑性能、养护要求和构件生产效率四个指标。这一维度在装配式建筑中
+ 143 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第三个维度是经济与环境效益，主要回答"值不值得用"的问题，下设材料成本、固废消纳量、碳排放降低量和综合经济性四个指标。
+ 144 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 三个维度之间的关系是：技术性能是前提，不达标就不能用；施工适应性是关键，决定了能否在工程上顺利推行；经济与环境效益是动力，决定了各方是否有积
+ 145 sz=None ea=None b=None al=CENTER (1) ls=1.5 li=None fi=24.0  >> 
+ 146 sz=10.5 ea=宋体 b=None al=CENTER (1) ls=22.0 li=None fi=None <<FIG >> 图4–1  再生混凝土应用评价指标体系
+ 147 sz=10.5 ea=宋体 b=None al=CENTER (1) ls=22.0 li=None fi=None <<TBL >> 表4–1  再生混凝土在装配式住宅中的应用评价指标体系
+ 148 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 4.1.4  评价指标权重与评价方法的确定
+ 149 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在多指标评价体系中，各指标对评价结果的影响程度并不相同，需要通过一定的方法确定指标权重。常用的权重确定方法包括专家调查法、层次分析法和熵权法
+ 150 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 考虑到本研究依托的工程案例缺乏足够的实测数据，本文采用层次分析法与专家调查相结合的方式确定权重。具体做法是：先通过层次分析法建立判断矩阵，计
+ 151 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 评价等级的划分方面，本文将评价结果划分为"适用""基本适用""不适用"三个等级，分别对应综合评价得分的不同区间。得分处于"适用"区间的，表明
+ 152 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 4．2  技术性能评价
+ 153 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 强度性能方面，再生混凝土的抗压强度能否满足设计要求是最基本的判断依据。从已有的试验研究结果看，在取代率不超过30%的条件下，通过合理的配合比
+ 154 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 变形性能方面，再生混凝土弹性模量偏低是一个客观存在的特点，但在结构设计中这一特点可以被合理利用。项目的技术路线中明确指出，30%取代率的再生
+ 155 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 耐久性能方面，需要区分室内干燥环境和室外潮湿、冻融环境。在室内干燥环境中，再生混凝土的耐久性风险相对可控；在室外或地下环境中，由于再生骨料的
+ 156 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 结构性能方面，已有的拟静力试验表明，再生混凝土剪力墙仍具有较高的承载能力和较好的滞回特性，掺入聚丙烯纤维后力学性能进一步提高；同时试验也发现
+ 157 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 综合上述四个方面的分析，本文认为：在取代率为30%的条件下，再生混凝土用于装配式住宅的竖向承重构件和水平构件，在技术性能上是可行的，前提是配
+ 158 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 4．3  施工适应性评价
+ 159 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 拌合物工作性方面，再生骨料吸水率高带来的最大问题是坍落度经时损失偏大。在预拌混凝土的生产和运输过程中，从出机到浇筑往往需要几十分钟甚至更长时
+ 160 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 泵送与浇筑性能方面，再生混凝土拌合物粘性较大的特点会使泵送阻力增大，对泵送设备的要求相应提高。施工组织时应适当降低泵送速度、选用较大直径的输
+ 161 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 养护要求方面，再生混凝土的收缩大于普通混凝土，早期养护的重要性高于普通混凝土。对预制构件而言，工厂通常采用蒸汽养护，蒸汽养护制度的升温速率、
+ 162 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 构件生产效率方面，装配式构件生产是流水线作业，模具周转速度直接影响产能。若再生混凝土的早期强度增长偏慢，构件达到脱模强度的时间延长，就会降低
+ 163 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 需要说明的是，本项目为现浇剪力墙结构，上述与预制构件生产相关的评价内容属于基于材料性能规律的延伸分析，而非该项目已实施的工艺。
+ 164 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 4.3.5  施工适应性的细化分析
+ 165 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 施工适应性是再生混凝土能否在工程中被顺利采用的重要前提，其影响贯穿构件生产、运输、浇筑和养护的全过程。在构件生产环节，再生混凝土的早期强度发
+ 166 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在运输环节，再生混凝土拌合物的坍落度经时损失较普通混凝土偏大，运输时间过长会导致到场后工作性下降，影响浇筑质量。因此，需要合理规划运输路线和
+ 167 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 在浇筑环节，再生混凝土的粘性较大，流动性和填充性略差，浇筑时需要适当延长振捣时间，确保混凝土密实，特别是钢筋密集部位和构件边角部位。同时，要
+ 168 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 4．4  经济与环境效益评价
+ 169 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 环境效益方面，再生混凝土最直接的环境贡献是消纳建筑固废和减少天然骨料开采。以本项目10679 m³的再生混凝土用量估算，按每立方米混凝土中再
+ 170 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 环境效益的另一方面体现在碳排放上。混凝土的碳排放主要来自水泥生产和骨料开采运输两个环节。再生骨料替代天然骨料主要减少的是开采和运输环节，对水
+ 171 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 经济性方面，需要分情况讨论。当项目所在地天然砂石供应紧张、砂石价格较高，或者建筑废弃物外运处置费用较高时，再生混凝土具有一定的成本优势。反之
+ 172 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 综合来看，再生混凝土在环境效益上具有确定性，在经济性上具有条件性。对具体项目而言，是否采用再生混凝土，需要结合当地的砂石价格、固废处置政策、
+ 173 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 4．5  评价结果分析
+ 174 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 把三个维度的评价结果汇总起来看，可以得到以下几点认识。
+ 175 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第一，技术可行性已经得到工程验证。百米级高层建筑采用30%取代率的再生混凝土并完成主体结构封顶，说明再生混凝土在结构工程中应用的技术门槛已经
+ 176 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第二，施工适应性是当前最主要的制约因素。再生骨料品质波动大、拌合物工作性受含水率影响明显、早期强度增长与模具周转存在矛盾，这些问题都不是材料
+ 177 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第三，经济性受外部条件影响明显，不宜简单下结论。在项目决策阶段，应把砂石价格、运输距离、固废处置费用和地方补贴政策一并纳入测算模型，避免只比
+ 178 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第四，标准体系的完善程度直接决定推广速度。《再生骨料应用技术规程》给出了基本的技术依据，深圳、山东等地也在推进地方标准的制定[5][15][
+ 179 sz=15.0 ea=黑体 b=True al=None ls=1.5 li=65.3 fi=-65.3  >> 5  应用中存在的主要问题与优化对策
+ 180 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 5．1  存在的主要问题
+ 181 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.1.1  再生骨料品质波动大
+ 182 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生骨料的性能受母体混凝土影响明显。同样是拆除下来的混凝土，有的来自强度等级较高的框架结构，有的来自强度等级较低的砌体结构或路面，还有的混入
+ 183 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.1.2  拌合物工作性控制难度大
+ 184 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 如前文所述，再生骨料含水率受堆放条件和天气影响显著。晴天和雨后、料堆表层和料堆内部，含水率都可能相差较多。若仍按固定的施工配合比投料，实际水
+ 185 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.1.3  预制构件早期强度与生产节奏的矛盾
+ 186 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 预制构件需要在达到一定强度后脱模起吊，模具才能进入下一轮使用。再生混凝土的早期强度发展规律与普通混凝土不完全相同，若早期强度增长偏慢，脱模时
+ 187 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.1.4  标准配套与检测手段仍有短板
+ 188 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 现行《再生骨料应用技术规程》对再生骨料的应用作出了规定[5]，但在预制构件这一细分领域，配套的技术依据还不够完善。虽然深圳、山东等地已经出台
+ 189 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.1.5  施工过程中的温度与养护控制
+ 190 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生混凝土的收缩徐变较普通混凝土偏大，对养护条件更为敏感，因此施工过程中的温度和湿度控制尤为重要。在夏季高温施工时，混凝土入模温度过高会加速
+ 191 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 养护制度方面，再生混凝土的湿养护时间应比普通混凝土适当延长。对于现浇部位，浇筑完成后应及时覆盖保湿，养护时间一般不少于14天；对于预制构件，
+ 192 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.1.6  质量检测与验收的关键环节
+ 193 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 再生混凝土结构的质量检测与验收应重点关注以下几个环节。原材料环节，应对每批进场的再生骨料进行检验，核查其类别、颗粒级配、微粉含量和含水率等指
+ 194 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 构件生产环节，应对钢筋规格与位置、预埋件位置、混凝土浇筑密实度和养护条件进行检查，构件出厂前应进行外观质量和尺寸偏差检验。现场施工环节，应对
+ 195 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 实体质量环节，应对结构实体的混凝土强度进行检测，常用方法包括回弹法和钻芯法。回弹法操作简便、检测速度快，适用于大面积普查；钻芯法能够直接测定
+ 196 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 5．2  优化对策
+ 197 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.2.1  加强再生骨料的分级与预处理
+ 198 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 解决品质波动的根本办法是把好骨料进厂关。具体措施包括：对进厂的再生骨料按来源和强度等级分批堆放，避免不同来源的骨料混堆；按《混凝土用再生粗骨
+ 199 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.2.2  优化配合比设计参数
+ 200 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 配合比设计上，建议采取以下几项措施。一是控制水胶比并掺入矿物掺合料，改善界面过渡区结构，提高密实度和耐久性[3]。二是针对再生骨料吸水率高的
+ 201 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.2.3  完善生产过程的质量留痕
+ 202 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 管理层面的措施同样重要。建议在构件生产和混凝土拌合环节建立批次追溯制度，把每一批再生骨料的来源、检验结果、使用部位和对应构件的编号记录下来，
+ 203 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 5.2.4  加强连接节点的试验验证
+ 204 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 装配式结构的薄弱环节在节点，再生混凝土的应用更应把节点作为重点。建议在工程应用前，针对所采用的连接方式开展足尺或大比例的试验，验证灌浆套筒连
+ 205 sz=15.0 ea=黑体 b=True al=None ls=1.5 li=65.3 fi=-65.3  >> 6  结论与展望
+ 206 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 6．1  主要结论
+ 207 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 通过对广西某百米级再生混凝土公寓项目的分析和对再生混凝土在装配式住宅中应用效果的评价，本文得出以下几点认识。
+ 208 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第一，再生混凝土在高层住宅结构中应用的技术可行性已经得到工程验证。30%取代率的再生混凝土在30层、接近100 m高的建筑中实现竖向承重结构
+ 209 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第二，弹性模量偏低这一特点在结构设计中可以被正向利用。适当降低结构刚度能够延长自振周期、减小地震作用，项目正是利用这一特点优化了结构整体刚度
+ 210 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第三，施工适应性是当前推广应用的主要制约因素，其本质是过程控制问题而非材料性能缺陷。骨料含水率波动、拌合物坍落度损失、早期强度与模具周转的矛
+ 211 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第四，经济性与外部条件密切相关。砂石价格、运输距离、固废处置费用和地方补贴政策共同决定了再生混凝土的经济性，项目决策时应综合测算，不宜只比较
+ 212 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 6.1.5  工程应用的若干建议
+ 213 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 基于本文的分析，对再生混凝土在装配式住宅中的应用提出以下几点建议。第一，应重视再生骨料的分级使用。不同类别的再生骨料性能差异明显，配制结构混
+ 214 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 第三，应完善全过程的质量记录。从骨料进厂、配合比确定、混凝土生产、构件养护到实体检测，各环节均应形成完整的质量记录，实现质量问题的可追溯。第
+ 215 sz=12.0 ea=黑体 b=None al=None ls=1.5 li=None fi=None  >> 6.1.6 研究方法的适用性与局限
+ 216 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 本文采用的评价方法以层次分析法确定指标权重，结合工程实际资料进行综合评价。这一方法的优点是结构清晰、操作性强，能够在缺乏大量实测数据的条件下
+ 217 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 此外，本文主要依赖公开报道的工程资料和已有研究成果开展分析，未能获取项目内部详细的检测报告和施工记录，这使得部分评价只能基于定性判断或参照同
+ 218 sz=14.0 ea=黑体 b=True al=None ls=1.5 li=None fi=None  >> 6．2  展望
+ 219 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 受资料获取条件的限制，本文主要基于公开报道的工程信息和已有的试验研究成果开展评价，未能获取项目内部的具体检测数据，评价的深度因此受到一定限制
+ 220 sz=12.0 ea=宋体 b=None al=None ls=1.5 li=None fi=24.0  >> 随着标准体系的逐步完善和工程案例的持续积累，再生混凝土在装配式住宅中的应用有望从个别示范工程走向规模化推广。
+ 221 sz=None ea=None b=None al=None ls=None li=None fi=24.0  >> 
+ 222 sz=None ea=None b=None al=None ls=1.5 li=None fi=None  >> 
+ 223 sz=14.0 ea=宋体 b=True al=CENTER (1) ls=1.5 li=None fi=None  >> 结  论
+ 224 sz=None ea=None b=None al=None ls=1.5 li=None fi=24.0  >> 
+ 225 sz=12.0 ea=宋体 b=None al=None ls=22.0 li=None fi=24.0  >> 本文以广西某30层、接近100 m高的再生混凝土公寓项目为研究对象，对再生混凝土在装配式住宅中的应用效果进行了系统评价。项目采用再生骨料取代
+ 226 sz=12.0 ea=宋体 b=None al=None ls=22.0 li=None fi=24.0  >> 对此本文提出加强再生骨料分级与预处理、优化配合比参数、建立批次追溯制度以及开展连接节点足尺试验验证等对策，供同类工程参考。
+ 227 sz=None ea=None b=None al=None ls=1.5 li=None fi=24.0  >> 
+ 228 sz=14.0 ea=宋体 b=True al=CENTER (1) ls=1.5 li=None fi=None  >> 参 考 文 献
+ 229 sz=None ea=None b=None al=None ls=1.5 li=None fi=24.0  >> 
+ 230 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [1]  肖建庄. 再生混凝土[M]. 北京: 中国建筑工业出版社, 2008.
+ 231 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [2]  国务院办公厅. 国务院办公厅关于大力发展装配式建筑的指导意见: 国办发〔2016〕71号[Z]. 2016.
+ 232 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [3]  海然, 崔力, 翟胜田, 等. 基于文献聚类分析的再生混凝土抗压强度及耐久性最新研究进展[J]. 材料导报, 2025, 39(1
+ 233 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [4]  刘昊. 全球首栋30层百米级再生混凝土结构公寓封顶[N]. 中华建筑报, 2026-06-24.
+ 234 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [5]  中华人民共和国住房和城乡建设部. 再生骨料应用技术规程: JGJ/T 240-2011[S]. 北京: 中国建筑工业出版社, 20
+ 235 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [6]  肖建庄. 可持续混凝土结构导论[M]. 北京: 科学出版社, 2017.
+ 236 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [7]  XIAO J Z. Recycled Aggregate Concrete Structures[M]. Berlin: Spri
+ 237 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [8]  杨海峰, 肖建庄. 再生混凝土-钢筋粘结滑移性能[M]. 北京: 中国建筑工业出版社, 2025.
+ 238 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [9]  李想, 孙建刚, 张书进, 等. 一种基于再生混凝土的装配式结构抗震性能试验研究[J]. 振动工程学报, 2021, 34(5).
+ 239 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [10]  中华人民共和国国家质量监督检验检疫总局, 中国国家标准化管理委员会. 混凝土用再生粗骨料: GB/T 25177-2010[S]
+ 240 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [11]  中华人民共和国国家质量监督检验检疫总局, 中国国家标准化管理委员会. 混凝土和砂浆用再生细骨料: GB/T 25176-2010
+ 241 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [12]  中华人民共和国住房和城乡建设部. 装配式混凝土建筑技术标准: GB/T 51231-2016[S]. 北京: 中国建筑工业出版社
+ 242 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [13]  中华人民共和国住房和城乡建设部. 装配式混凝土结构技术规程: JGJ 1-2014[S]. 北京: 中国建筑工业出版社, 201
+ 243 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [14]  中华人民共和国住房和城乡建设部. 装配式建筑评价标准: GB/T 51129-2017[S]. 北京: 中国建筑工业出版社, 2
+ 244 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [15]  深圳市住房和建设局. 建筑废弃物再生产品应用工程技术规程: SJG 37-2026[S]. 深圳, 2026.
+ 245 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [16]  山东省市场监督管理局. 再生混凝土预制构件应用技术规程: DB37/T 5276-2024[S]. 济南, 2024.
+ 246 sz=10.5 ea=宋体 b=None al=None ls=22.0 li=None fi=28.6  >> [17]  中华人民共和国住房和城乡建设部. 混凝土结构工程施工质量验收规范: GB 50204-2015[S]. 北京: 中国建筑工业出版
+ 247 sz=None ea=None b=None al=None ls=1.5 li=None fi=None  >> 
+ 248 sz=14.0 ea=宋体 b=True al=None ls=1.5 li=None fi=None  >> 致  谢
+ 249 sz=None ea=None b=None al=None ls=1.5 li=None fi=24.0  >> 
+ 250 sz=12.0 ea=宋体 b=None al=None ls=22.0 li=None fi=24.0  >> 本论文是在指导老师的悉心指导下完成的。从选题的确定到框架的调整，再到成文的修改，指导老师都给予了具体而耐心的帮助，在此表示衷心的感谢。
+
+感
+ 251 sz=None ea=None b=None al=None ls=20.0 li=None fi=28.0  >> 
+--- 内联图片数: 2

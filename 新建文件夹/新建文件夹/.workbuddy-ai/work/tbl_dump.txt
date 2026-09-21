@@ -1,0 +1,1 @@
+C:\Users\15515\.workbuddy-ai\binaries\python\envs\default\Scripts\python.exe: can't open file 'C:\\Users\\15515\\Desktop\\09-文档资料\\新建文件夹\\.workbuddy-ai\\work\\t_tbl.py': [Errno 2] No such file or directory

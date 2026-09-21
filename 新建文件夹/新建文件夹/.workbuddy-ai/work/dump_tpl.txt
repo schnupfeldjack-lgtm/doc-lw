@@ -1,0 +1,829 @@
+########## 段落 ##########
+  0 | sty=Normal | sz=22.0 | fn=None | ea=None | b=True | al=CENTER (1) | ls=None | ind=(None, None)
+      >> 开题报告
+  1 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+  2 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+  3 | sty=Normal | sz=16.0 | fn=None | ea=None | b=True | al=CENTER (1) | ls=None | ind=(None, None)
+      >> 炎黄职业技术学院毕业论文任务书
+  4 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 系 计算机系专业 计算机应用技术 班级         姓名        学号           
+  5 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+  6 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=CENTER (1) | ls=None | ind=(None, 1143000)
+      >>                                
+  7 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=CENTER (1) | ls=None | ind=(None, 1143000)
+      >>                                指导老师_______________
+  8 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, 1143000)
+      >>                                职务（称）_______________
+  9 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >>                                                  2025年9月 10日
+ 10 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+ 11 | sty=Normal | sz=16.0 | fn=None | ea=None | b=True | al=CENTER (1) | ls=None | ind=(None, None)
+      >> 炎黄职业技术学院毕业论文中期检查指导表
+ 12 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+ 13 | sty=Normal | sz=20.0 | fn=方正小标宋简体 | ea=方正小标宋简体 | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+ 14 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+ 15 | sty=Normal | sz=30.0 | fn=None | ea=楷体_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+ 16 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+ 17 | sty=Normal | sz=53.0 | fn=方正小标宋简体 | ea=方正小标宋简体 | b=None | al=CENTER (1) | ls=None | ind=(None, None)
+      >> 毕  业  论  文
+ 18 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=CENTER (1) | ls=None | ind=(None, None)
+      >> 
+ 19 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=CENTER (1) | ls=None | ind=(None, None)
+      >> 
+ 20 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=254000 | ind=(None, None)
+      >> 
+ 21 | sty=Normal | sz=10.0 | fn=None | ea=None | b=None | al=None | ls=254000 | ind=(None, None)
+      >> 
+ 22 | sty=Normal | sz=15.0 | fn=None | ea=None | b=True | al=None | ls=254000 | ind=(None, 765175)
+      >> 指导者：                               
+ 23 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=CENTER (1) | ls=190500 | ind=(None, 496570)
+      >>       (姓 名)            (专业技术职务)
+ 24 | sty=Normal | sz=10.0 | fn=None | ea=None | b=None | al=CENTER (1) | ls=152400 | ind=(None, 495300)
+      >> 
+ 25 | sty=Normal | sz=15.0 | fn=None | ea=None | b=True | al=None | ls=254000 | ind=(None, 765175)
+      >> 评阅者：                               
+ 26 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=CENTER (1) | ls=190500 | ind=(None, 496570)
+      >>       (姓 名)            (专业技术职务)
+ 27 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=CENTER (1) | ls=228600 | ind=(None, None)
+      >> 
+ 28 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=CENTER (1) | ls=228600 | ind=(None, None)
+      >> 
+ 29 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=LEFT (0) | ls=254000 | ind=(None, None)
+      >> 
+ 30 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=LEFT (0) | ls=355600 | ind=(None, None)
+      >> （空1行）
+ 31 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=True | al=None | ls=355600 | ind=(None, None)
+      >> 摘 要：（小四号宋体、加粗）××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××
+ 32 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 33 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 34 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> （空2行）
+ 35 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=True | al=None | ls=1.5 | ind=(None, None)
+      >> 关键词：（小四号宋体、加粗）  ×××，×××，×××，×××（小四号宋体）
+ 36 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=LEFT (0) | ls=1.5 | ind=(None, None)
+      >> 
+ 37 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=LEFT (0) | ls=1.5 | ind=(None, None)
+      >> 
+ 38 | sty=Normal | sz=10.0 | fn=None | ea=仿宋_GB2312 | b=None | al=LEFT (0) | ls=1.5 | ind=(None, None)
+      >> （空1行）
+ 39 | sty=Normal | sz=16.0 | fn=None | ea=黑体 | b=True | al=None | ls=1.5 | ind=(None, None)
+      >> Abstract：（小四号Times New Roman，加粗）××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××
+ 40 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=LEFT (0) | ls=1.5 | ind=(None, None)
+      >> （空2行）
+ 41 | sty=Normal | sz=16.0 | fn=None | ea=黑体 | b=True | al=None | ls=1.5 | ind=(None, None)
+      >> Key words：（小四号Times New Roman，加粗）×××, ×××, ×××, ×××（小四号Times New Roman）
+ 42 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 43 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 44 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 45 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 46 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 47 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 48 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 49 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=LEFT (0) | ls=355600 | ind=(None, None)
+      >> 
+ 50 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=LEFT (0) | ls=None | ind=(None, None)
+      >> 
+ 51 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=LEFT (0) | ls=1.5 | ind=(-571500, 304800)
+      >> 
+ 52 | sty=Normal | sz=18.0 | fn=黑体 | ea=黑体 | b=True | al=CENTER (1) | ls=1.5 | ind=(-571500, 459105)
+      >> 目  录黑体小二号字加粗居中
+ 53 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=LEFT (0) | ls=1.5 | ind=(None, None)
+      >> （空1行）
+ 54 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=CENTER (1) | ls=1.5 | ind=(-571500, 266700)
+      >> （以下为目录正文部分，首行前空1行，字体宋体小四号，行距固定值28磅）
+ 55 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 1.引言	1
+ 56 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 2.餐饮业连锁经营的含义	2
+ 57 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 3.我国餐饮业连锁经营发展现状	3
+ 58 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 4.我国餐饮业出现的主要问题	4
+ 59 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 4.1品牌的适用与管理能力差，没有形成独特的管理体系	5
+ 60 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 4.2产品的标准化和一致性差，核心技术可复制性差	6
+ 61 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 4.3实行统一的配送方面问题突出，物流中心不够完善	7
+ 62 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 5.我国餐饮特许经营发展的对策和建议	8
+ 63 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 5.1加强品牌建设	9
+ 64 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 5.2积极推行标准化	10
+ 65 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 5.3完善餐饮企业的物流供应链。	11
+ 66 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 6.餐饮连锁经营的展望	11
+ 67 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 6.1连锁经营将成为餐饮业主攻方向	11
+ 68 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(266700, None)
+      >> 6.2餐饮连锁的市场潜力	11
+ 69 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 结论	11
+ 70 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 致谢	11
+ 71 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 参考文献	11
+ 72 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=355600 | ind=(None, None)
+      >> 附录A  ×××（可有，可无，根据专业需要填写）	12
+ 73 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=LEFT (0) | ls=1.5 | ind=(-571500, 304800)
+      >> 
+ 74 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+ 75 | sty=Normal | sz=10.0 | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(829310, -829310)
+      >> 1  引言（或绪论）（可作为正文第1章标题，用小3号黑体，加粗，并留出上下间距为：段前0.5行，段后0.5行）
+ 76 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> ×××××××××（小4号宋体，1.5倍行距）×××××××××××××××××××××………
+ 77 | sty=Normal | sz=14.0 | fn=None | ea=黑体 | b=True | al=None | ls=1.5 | ind=(None, None)
+      >> 1．1  ××××××（作为正文2级标题，用4号黑体，加粗）
+ 78 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 304800)
+      >> ×××××××××（小4号宋体）××××××…………
+ 79 | sty=Normal | sz=12.0 | fn=None | ea=黑体 | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 1.1.1  ××××（作为正文3级标题，用小4号黑体，不加粗）
+ 80 | sty=Body Text Indent | sz=12.0 | fn=Times New Roman | ea=None | b=None | al=None | ls=None | ind=(None, 304800)
+      >> ×××××××××（小4号宋体）×××××××××××××××××××××××××××………
+ 81 | sty=Normal | sz=15.0 | fn=None | ea=黑体 | b=True | al=None | ls=1.5 | ind=(1723390, -1723390)
+      >> 2  ×××××××（不换页，作为正文第2章标题，用小3号黑体，加粗，并留出上下间距为：段前0.5行，段后0.5行）
+ 82 | sty=Body Text Indent | sz=12.0 | fn=Times New Roman | ea=None | b=None | al=None | ls=None | ind=(None, 304800)
+      >> ×××××××××（小4号宋体）×××××××××××××××××××××××××××××××××××………
+ 83 | sty=Body Text Indent | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, 304800)
+      >> 
+ 84 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=LEFT (0) | ls=1.5 | ind=(456565, -152400)
+      >> 注：
+ 85 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 1．正文中公式、图与表的字体一律用5号宋体；公式号以章分组编号，如（2–4）表示第2章的第4个公式。公式应尽量采用公式编辑应用程序编入，选择默认格式，公式号右对齐，公式调整至基本居中。图与表也以章分组编号，如“图3–5”
+ 86 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 2．正文各页的格式请以此页为标准复制，页眉中的页码用阿拉伯数字表示（本文档的页码已设置成自动格式）；
+ 87 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 3．为保证打印效果，学生在打印前，请将全文字体的颜色统一设置成黑色。
+ 88 | sty=Normal | sz=16.0 | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> （本页为独立页，空2行）
+ 89 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+ 90 | sty=Normal | sz=15.0 | fn=None | ea=黑体 | b=None | al=CENTER (1) | ls=1.5 | ind=(None, None)
+      >>                结  论（四号宋体、加粗，居中）
+ 91 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+ 92 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=279400 | ind=(None, 304800)
+      >> ×××××××××（小四号宋体，行距为固定值22磅）×××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××…………
+ 93 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+ 94 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+ 95 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+ 96 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+ 97 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+ 98 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+ 99 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+100 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 说明：结论是文章的最终的、总体的结论。应当准确、完整、明确、精练。如不可能导出应有的结论，也可以没有结论而进行必要的讨论。可以在结论或讨论中提出建议、研究设想、改进意见、尚待解决的问题等等。
+101 | sty=Body Text Indent 3 | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+102 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+103 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+104 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+105 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+106 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+107 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=279400 | ind=(None, 363855)
+      >> （空2行）
+108 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+109 | sty=Normal | sz=15.0 | fn=None | ea=黑体 | b=None | al=CENTER (1) | ls=1.5 | ind=(None, None)
+      >>               参 考 文 献（四号宋体、加粗，居中）
+110 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+111 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=279400 | ind=(None, 363855)
+      >> [1]  ×××××××（五号宋体，行距为固定值22磅）×××××
+112 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=279400 | ind=(None, 363855)
+      >> [2]  ××××××××××××××××××××××××××××××××××××
+113 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=279400 | ind=(None, 363855)
+      >> [3]  ××××××××××××××××××××××
+114 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=228600 | ind=(None, 304800)
+      >> …………
+115 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=228600 | ind=(None, None)
+      >> 例如：
+116 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 333375)
+      >> [1] ×××.中国高等教育.北京:中国教育报刊社,2006:17-18.
+117 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 228600)
+      >> （五号宋体：作者.书名[M].出版地:出版社,时间:页码.）
+118 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 333375)
+      >> [2] ×××, ×××等. ×××研究[J]. ××学报,2005,17(8): 124-129.
+119 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 228600)
+      >> （五号宋体：作者.论文名[J].刊名,年,卷(期):页码.）
+120 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 360045)
+      >> [3] Maham G D.Mang-Chemistry [M].New York:Plenum,1989.
+121 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 228600)
+      >>     （同[1]）
+122 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 333375)
+      >> [4] Curzon F,***,***,ect..Efficiency of a Carnot engine at maximum Power[J].Am. J. Phys.,1975,4(1):  22-25.
+123 | sty=Normal | sz=None | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 228600)
+      >>     （同[2]）
+124 | sty=Normal | sz=12.0 | fn=None | ea=None | b=None | al=None | ls=279400 | ind=(None, 304800)
+      >> …………
+125 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 说明:请仔细阅读《毕业论文（设计）的基本框架及其表述》2.4有关内容，摘要如下：
+126 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 1.参考文献著录规则是论文的重要组成部分。所列出的文献，应当是作者亲自阅读或引用过的，不应转录他人文后的文献。
+127 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 2.毕业设计论文所列的参考文献原则上不少于5篇（册）。
+128 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 3.参考文献的注引
+129 | sty=Body Text Indent 3 | sz=None | fn=Times New Roman | ea=仿宋_GB2312 | b=None | al=None | ls=None | ind=(None, None)
+      >> 在正文中，应用文献资料论述某个观点时，应在所应用段落或句子的右上角，用方括弧进行角注，并用阿拉伯数字注明资料的出处。正文中每应用一次文献资料，角注时应用1，2，3……阿拉伯数字按先后次序分别排序。如：××××××[1]；
+130 | sty=Normal | sz=14.0 | fn=None | ea=仿宋_GB2312 | b=None | al=None | ls=254000 | ind=(None, 355600)
+      >> 正文中进行角注的数字序号应与文后参考文献表中所列出的文献资料序号相对应。
+131 | sty=Normal | sz=14.0 | fn=None | ea=仿宋_GB2312 | b=None | al=None | ls=254000 | ind=(None, 355600)
+      >> 题名、摘要、关键词、目录等中不出现文献的角注。
+132 | sty=Normal | sz=15.0 | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> （空2行）
+133 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, None)
+      >> 
+134 | sty=Normal | sz=14.0 | fn=宋体 | ea=None | b=True | al=None | ls=1.5 | ind=(None, None)
+      >> 致  谢（四号宋体、加粗，左对齐）
+135 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=1.5 | ind=(None, 361950)
+      >> 
+136 | sty=Normal | sz=12.0 | fn=宋体 | ea=None | b=None | al=None | ls=279400 | ind=(None, 363855)
+      >> ×××××××××（小四号宋体，行距为固定值22磅）×××××××××××××××××××××…………
+137 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=254000 | ind=(None, 355600)
+      >> 
+138 | sty=Normal | sz=None | fn=None | ea=None | b=None | al=None | ls=None | ind=(None, None)
+      >> 
+
+########## 表格 ##########
+--- table 0 style=Normal Table rows=6 cols=8
+   [0,0] sz=12.0 fn=None b=None al=CENTER (1) >> 姓名
+   [0,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [0,2] sz=12.0 fn=None b=None al=CENTER (1) >> 学号
+   [0,3] sz=None fn=None b=None al=CENTER (1) >> 
+   [0,4] sz=12.0 fn=None b=None al=CENTER (1) >> 班级
+   [0,5] sz=None fn=None b=None al=CENTER (1) >> 
+   [0,6] sz=12.0 fn=None b=None al=CENTER (1) >> 论文指导老师
+   [0,7] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,0] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [1,1] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [1,2] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [1,3] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [1,4] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [1,5] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [1,6] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [1,7] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称： 
+   [2,0] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,0] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,0] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [2,1] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,1] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,1] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [2,2] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,2] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,2] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [2,3] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,3] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,3] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [2,4] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,4] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,4] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [2,5] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,5] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,5] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [2,6] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,6] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,6] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [2,7] sz=12.0 fn=None b=None al=LEFT (0) >> 课题概况（主旨，思路，方法等）
+   [2,7] sz=12.0 fn=None b=None al=LEFT (0) >> 主旨：
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=12.0 fn=None b=None al=LEFT (0) >> 思路：
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=12.0 fn=None b=None al=LEFT (0) >> 方法：
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=12.0 fn=None b=None al=LEFT (0) >> （每个项目开头空2字符）
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [2,7] sz=12.0 fn=None b=None al=LEFT (0) >>                                         
+   [3,0] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,0] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,0] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,0] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,0] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [3,1] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,1] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,1] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,1] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,1] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [3,2] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,2] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,2] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,2] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,2] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [3,3] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,3] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,3] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,3] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,3] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [3,4] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,4] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,4] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,4] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,4] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [3,5] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,5] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,5] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,5] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,5] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [3,6] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,6] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,6] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,6] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,6] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [3,7] sz=12.0 fn=None b=None al=LEFT (0) >> 导师意见：
+   [3,7] sz=12.0 fn=None b=None al=LEFT (0) >> 论文选题正确、主旨突出、思路清晰，框架基本符合要求。（打印删除）
+   [3,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [3,7] sz=12.0 fn=None b=None al=LEFT (0) >>                                                                        
+   [3,7] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [3,7] sz=12.0 fn=None b=None al=RIGHT (2) >> 时间：2025.9.10
+   [4,0] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,0] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,0] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,0] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,0] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,0] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [4,1] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,1] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,1] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,1] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,1] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,1] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [4,2] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,2] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,2] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,2] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,2] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,2] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [4,3] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,3] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,3] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,3] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,3] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,3] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [4,4] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,4] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,4] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,4] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,4] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,4] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [4,5] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,5] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,5] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,5] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,5] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,5] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [4,6] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,6] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,6] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,6] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,6] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,6] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [4,7] sz=12.0 fn=None b=None al=LEFT (0) >> 论文评审组长意见：
+   [4,7] sz=None fn=None b=None al=LEFT (0) >> 
+   [4,7] sz=12.0 fn=None b=None al=LEFT (0) >> 同意导师意见。（打印删除）
+   [4,7] sz=12.0 fn=None b=None al=LEFT (0) >>                
+   [4,7] sz=12.0 fn=None b=None al=LEFT (0) >>                                                   签名：            
+   [4,7] sz=12.0 fn=None b=None al=CENTER (1) >>                                        时间：2025.9.12
+   [5,0] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+   [5,1] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+   [5,2] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+   [5,3] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+   [5,4] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+   [5,5] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+   [5,6] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+   [5,7] sz=12.0 fn=None b=None al=JUSTIFY (3) >> 备注
+--- table 1 style=Normal Table rows=5 cols=1
+   [0,0] sz=12.0 fn=None b=None al=LEFT (0) >> 课题名称：
+   [1,0] sz=12.0 fn=None b=None al=None >> 本课题主要内容： 
+   [1,0] sz=None fn=None b=None al=None >> 
+   [1,0] sz=None fn=None b=None al=None >> 
+   [1,0] sz=None fn=None b=None al=None >> 
+   [1,0] sz=None fn=None b=None al=None >> 
+   [2,0] sz=12.0 fn=None b=None al=None >> 本课题研究方法与要求：（整行距根据文字数量适当调整，总体不超过300字）
+   [2,0] sz=12.0 fn=None b=None al=None >> 方法：
+   [2,0] sz=None fn=None b=None al=None >> 
+   [2,0] sz=12.0 fn=None b=None al=None >> 要求：
+   [2,0] sz=None fn=None b=None al=None >> 
+   [2,0] sz=12.0 fn=None b=None al=None >>  
+   [3,0] sz=12.0 fn=None b=None al=None >> 本课题研究进度安排：
+   [3,0] sz=12.0 fn=None b=None al=None >> 第一阶段：
+   [3,0] sz=12.0 fn=None b=None al=None >> 第二阶段：
+   [3,0] sz=12.0 fn=None b=None al=None >> 第三阶段：
+   [3,0] sz=12.0 fn=仿宋 b=None al=None >> ……
+   [4,0] sz=12.0 fn=宋体 b=None al=None >> 主要参考文献：
+   [4,0] sz=None fn=None b=None al=None >> 
+   [4,0] sz=None fn=None b=None al=None >> 
+   [4,0] sz=12.0 fn=宋体 b=None al=LEFT (0) >>  
+--- table 2 style=Normal Table rows=6 cols=6
+   [0,0] sz=12.0 fn=None b=None al=CENTER (1) >> 姓名
+   [0,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [0,2] sz=12.0 fn=None b=None al=CENTER (1) >> 系别
+   [0,3] sz=12.0 fn=None b=None al=CENTER (1) >> 计算机系
+   [0,4] sz=12.0 fn=None b=None al=CENTER (1) >> 班级
+   [0,5] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,0] sz=12.0 fn=None b=None al=CENTER (1) >> 论文题目
+   [1,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,2] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,3] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,4] sz=12.0 fn=None b=None al=CENTER (1) >> 指导老师
+   [1,5] sz=None fn=None b=None al=CENTER (1) >> 
+   [2,0] sz=12.0 fn=None b=None al=LEFT (0) >> 第一阶段时间安排、完成任务情况以及教师指导意见
+   [2,1] sz=12.0 fn=None b=None al=None >> 2025.08.18~2025.09.03
+   [2,1] sz=12.0 fn=None b=None al=None >> 论文选题、书写开题报告，下发任务书，收集论文资料。
+   [2,1] sz=12.0 fn=None b=None al=None >> 论文收集资料较充实，但需再进一步补充。
+   [2,1] sz=None fn=None b=None al=None >> 
+   [2,1] sz=None fn=None b=None al=None >> 
+   [2,1] sz=12.0 fn=None b=None al=None >>                                      
+   [2,1] sz=12.0 fn=None b=None al=None >>                   指导老师签名：          2025年09月03日
+   [2,2] sz=12.0 fn=None b=None al=None >> 2025.08.18~2025.09.03
+   [2,2] sz=12.0 fn=None b=None al=None >> 论文选题、书写开题报告，下发任务书，收集论文资料。
+   [2,2] sz=12.0 fn=None b=None al=None >> 论文收集资料较充实，但需再进一步补充。
+   [2,2] sz=None fn=None b=None al=None >> 
+   [2,2] sz=None fn=None b=None al=None >> 
+   [2,2] sz=12.0 fn=None b=None al=None >>                                      
+   [2,2] sz=12.0 fn=None b=None al=None >>                   指导老师签名：          2025年09月03日
+   [2,3] sz=12.0 fn=None b=None al=None >> 2025.08.18~2025.09.03
+   [2,3] sz=12.0 fn=None b=None al=None >> 论文选题、书写开题报告，下发任务书，收集论文资料。
+   [2,3] sz=12.0 fn=None b=None al=None >> 论文收集资料较充实，但需再进一步补充。
+   [2,3] sz=None fn=None b=None al=None >> 
+   [2,3] sz=None fn=None b=None al=None >> 
+   [2,3] sz=12.0 fn=None b=None al=None >>                                      
+   [2,3] sz=12.0 fn=None b=None al=None >>                   指导老师签名：          2025年09月03日
+   [2,4] sz=12.0 fn=None b=None al=None >> 2025.08.18~2025.09.03
+   [2,4] sz=12.0 fn=None b=None al=None >> 论文选题、书写开题报告，下发任务书，收集论文资料。
+   [2,4] sz=12.0 fn=None b=None al=None >> 论文收集资料较充实，但需再进一步补充。
+   [2,4] sz=None fn=None b=None al=None >> 
+   [2,4] sz=None fn=None b=None al=None >> 
+   [2,4] sz=12.0 fn=None b=None al=None >>                                      
+   [2,4] sz=12.0 fn=None b=None al=None >>                   指导老师签名：          2025年09月03日
+   [2,5] sz=12.0 fn=None b=None al=None >> 2025.08.18~2025.09.03
+   [2,5] sz=12.0 fn=None b=None al=None >> 论文选题、书写开题报告，下发任务书，收集论文资料。
+   [2,5] sz=12.0 fn=None b=None al=None >> 论文收集资料较充实，但需再进一步补充。
+   [2,5] sz=None fn=None b=None al=None >> 
+   [2,5] sz=None fn=None b=None al=None >> 
+   [2,5] sz=12.0 fn=None b=None al=None >>                                      
+   [2,5] sz=12.0 fn=None b=None al=None >>                   指导老师签名：          2025年09月03日
+   [3,0] sz=12.0 fn=None b=None al=LEFT (0) >> 第二阶段时间安排、完成任务情况以及教师指导意见
+   [3,1] sz=12.0 fn=None b=None al=None >> 2025.09.04~2025.09.12
+   [3,1] sz=12.0 fn=None b=None al=None >> 完善论文资料，确定论文主体结构，完成情况良好。
+   [3,1] sz=None fn=None b=None al=None >> 
+   [3,1] sz=None fn=None b=None al=None >> 
+   [3,1] sz=None fn=None b=None al=None >> 
+   [3,1] sz=None fn=None b=None al=None >> 
+   [3,1] sz=None fn=None b=None al=None >> 
+   [3,1] sz=12.0 fn=None b=None al=None >>                    指导老师签名：         2025年09月12日
+   [3,2] sz=12.0 fn=None b=None al=None >> 2025.09.04~2025.09.12
+   [3,2] sz=12.0 fn=None b=None al=None >> 完善论文资料，确定论文主体结构，完成情况良好。
+   [3,2] sz=None fn=None b=None al=None >> 
+   [3,2] sz=None fn=None b=None al=None >> 
+   [3,2] sz=None fn=None b=None al=None >> 
+   [3,2] sz=None fn=None b=None al=None >> 
+   [3,2] sz=None fn=None b=None al=None >> 
+   [3,2] sz=12.0 fn=None b=None al=None >>                    指导老师签名：         2025年09月12日
+   [3,3] sz=12.0 fn=None b=None al=None >> 2025.09.04~2025.09.12
+   [3,3] sz=12.0 fn=None b=None al=None >> 完善论文资料，确定论文主体结构，完成情况良好。
+   [3,3] sz=None fn=None b=None al=None >> 
+   [3,3] sz=None fn=None b=None al=None >> 
+   [3,3] sz=None fn=None b=None al=None >> 
+   [3,3] sz=None fn=None b=None al=None >> 
+   [3,3] sz=None fn=None b=None al=None >> 
+   [3,3] sz=12.0 fn=None b=None al=None >>                    指导老师签名：         2025年09月12日
+   [3,4] sz=12.0 fn=None b=None al=None >> 2025.09.04~2025.09.12
+   [3,4] sz=12.0 fn=None b=None al=None >> 完善论文资料，确定论文主体结构，完成情况良好。
+   [3,4] sz=None fn=None b=None al=None >> 
+   [3,4] sz=None fn=None b=None al=None >> 
+   [3,4] sz=None fn=None b=None al=None >> 
+   [3,4] sz=None fn=None b=None al=None >> 
+   [3,4] sz=None fn=None b=None al=None >> 
+   [3,4] sz=12.0 fn=None b=None al=None >>                    指导老师签名：         2025年09月12日
+   [3,5] sz=12.0 fn=None b=None al=None >> 2025.09.04~2025.09.12
+   [3,5] sz=12.0 fn=None b=None al=None >> 完善论文资料，确定论文主体结构，完成情况良好。
+   [3,5] sz=None fn=None b=None al=None >> 
+   [3,5] sz=None fn=None b=None al=None >> 
+   [3,5] sz=None fn=None b=None al=None >> 
+   [3,5] sz=None fn=None b=None al=None >> 
+   [3,5] sz=None fn=None b=None al=None >> 
+   [3,5] sz=12.0 fn=None b=None al=None >>                    指导老师签名：         2025年09月12日
+   [4,0] sz=12.0 fn=None b=None al=LEFT (0) >> 第三阶段 时间安排、完成任务情况以及教师指导意见
+   [4,1] sz=None fn=None b=None al=None >> 
+   [4,1] sz=12.0 fn=None b=None al=None >> 2025.09.13~2025.10.11
+   [4,1] sz=12.0 fn=None b=None al=None >> 完成论文初稿，格式符合要求。初稿需再修改
+   [4,1] sz=None fn=None b=None al=None >> 
+   [4,1] sz=12.0 fn=None b=None al=None >>                  
+   [4,1] sz=12.0 fn=None b=None al=None >>  
+   [4,1] sz=None fn=None b=None al=None >> 
+   [4,1] sz=12.0 fn=None b=None al=None >> 指导老师签名：        2025年10月11日
+   [4,2] sz=None fn=None b=None al=None >> 
+   [4,2] sz=12.0 fn=None b=None al=None >> 2025.09.13~2025.10.11
+   [4,2] sz=12.0 fn=None b=None al=None >> 完成论文初稿，格式符合要求。初稿需再修改
+   [4,2] sz=None fn=None b=None al=None >> 
+   [4,2] sz=12.0 fn=None b=None al=None >>                  
+   [4,2] sz=12.0 fn=None b=None al=None >>  
+   [4,2] sz=None fn=None b=None al=None >> 
+   [4,2] sz=12.0 fn=None b=None al=None >> 指导老师签名：        2025年10月11日
+   [4,3] sz=None fn=None b=None al=None >> 
+   [4,3] sz=12.0 fn=None b=None al=None >> 2025.09.13~2025.10.11
+   [4,3] sz=12.0 fn=None b=None al=None >> 完成论文初稿，格式符合要求。初稿需再修改
+   [4,3] sz=None fn=None b=None al=None >> 
+   [4,3] sz=12.0 fn=None b=None al=None >>                  
+   [4,3] sz=12.0 fn=None b=None al=None >>  
+   [4,3] sz=None fn=None b=None al=None >> 
+   [4,3] sz=12.0 fn=None b=None al=None >> 指导老师签名：        2025年10月11日
+   [4,4] sz=None fn=None b=None al=None >> 
+   [4,4] sz=12.0 fn=None b=None al=None >> 2025.09.13~2025.10.11
+   [4,4] sz=12.0 fn=None b=None al=None >> 完成论文初稿，格式符合要求。初稿需再修改
+   [4,4] sz=None fn=None b=None al=None >> 
+   [4,4] sz=12.0 fn=None b=None al=None >>                  
+   [4,4] sz=12.0 fn=None b=None al=None >>  
+   [4,4] sz=None fn=None b=None al=None >> 
+   [4,4] sz=12.0 fn=None b=None al=None >> 指导老师签名：        2025年10月11日
+   [4,5] sz=None fn=None b=None al=None >> 
+   [4,5] sz=12.0 fn=None b=None al=None >> 2025.09.13~2025.10.11
+   [4,5] sz=12.0 fn=None b=None al=None >> 完成论文初稿，格式符合要求。初稿需再修改
+   [4,5] sz=None fn=None b=None al=None >> 
+   [4,5] sz=12.0 fn=None b=None al=None >>                  
+   [4,5] sz=12.0 fn=None b=None al=None >>  
+   [4,5] sz=None fn=None b=None al=None >> 
+   [4,5] sz=12.0 fn=None b=None al=None >> 指导老师签名：        2025年10月11日
+   [5,0] sz=12.0 fn=None b=None al=LEFT (0) >> 第四阶段 时间安排、完成任务情况以及教师指导意见
+   [5,1] sz=12.0 fn=None b=None al=None >> 2025.10.12~2025.11.25
+   [5,1] sz=12.0 fn=None b=None al=None >> 论文定稿。完成情况良好
+   [5,1] sz=None fn=None b=None al=None >> 
+   [5,1] sz=None fn=None b=None al=None >> 
+   [5,1] sz=12.0 fn=None b=None al=None >>               
+   [5,1] sz=12.0 fn=None b=None al=None >>  
+   [5,1] sz=None fn=None b=None al=None >> 
+   [5,1] sz=12.0 fn=None b=None al=None >>   指导老师签名：        2025年11月25日
+   [5,2] sz=12.0 fn=None b=None al=None >> 2025.10.12~2025.11.25
+   [5,2] sz=12.0 fn=None b=None al=None >> 论文定稿。完成情况良好
+   [5,2] sz=None fn=None b=None al=None >> 
+   [5,2] sz=None fn=None b=None al=None >> 
+   [5,2] sz=12.0 fn=None b=None al=None >>               
+   [5,2] sz=12.0 fn=None b=None al=None >>  
+   [5,2] sz=None fn=None b=None al=None >> 
+   [5,2] sz=12.0 fn=None b=None al=None >>   指导老师签名：        2025年11月25日
+   [5,3] sz=12.0 fn=None b=None al=None >> 2025.10.12~2025.11.25
+   [5,3] sz=12.0 fn=None b=None al=None >> 论文定稿。完成情况良好
+   [5,3] sz=None fn=None b=None al=None >> 
+   [5,3] sz=None fn=None b=None al=None >> 
+   [5,3] sz=12.0 fn=None b=None al=None >>               
+   [5,3] sz=12.0 fn=None b=None al=None >>  
+   [5,3] sz=None fn=None b=None al=None >> 
+   [5,3] sz=12.0 fn=None b=None al=None >>   指导老师签名：        2025年11月25日
+   [5,4] sz=12.0 fn=None b=None al=None >> 2025.10.12~2025.11.25
+   [5,4] sz=12.0 fn=None b=None al=None >> 论文定稿。完成情况良好
+   [5,4] sz=None fn=None b=None al=None >> 
+   [5,4] sz=None fn=None b=None al=None >> 
+   [5,4] sz=12.0 fn=None b=None al=None >>               
+   [5,4] sz=12.0 fn=None b=None al=None >>  
+   [5,4] sz=None fn=None b=None al=None >> 
+   [5,4] sz=12.0 fn=None b=None al=None >>   指导老师签名：        2025年11月25日
+   [5,5] sz=12.0 fn=None b=None al=None >> 2025.10.12~2025.11.25
+   [5,5] sz=12.0 fn=None b=None al=None >> 论文定稿。完成情况良好
+   [5,5] sz=None fn=None b=None al=None >> 
+   [5,5] sz=None fn=None b=None al=None >> 
+   [5,5] sz=12.0 fn=None b=None al=None >>               
+   [5,5] sz=12.0 fn=None b=None al=None >>  
+   [5,5] sz=None fn=None b=None al=None >> 
+   [5,5] sz=12.0 fn=None b=None al=None >>   指导老师签名：        2025年11月25日
+--- table 3 style=Normal Table rows=5 cols=4
+   [0,0] sz=16.0 fn=None b=True al=DISTRIBUTE (4) >> 姓  名:
+   [0,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [0,2] sz=16.0 fn=None b=True al=DISTRIBUTE (4) >> 学 号：
+   [0,3] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,0] sz=16.0 fn=None b=True al=DISTRIBUTE (4) >> 系 (院):
+   [1,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,2] sz=None fn=None b=None al=CENTER (1) >> 
+   [1,3] sz=None fn=None b=None al=CENTER (1) >> 
+   [2,0] sz=16.0 fn=None b=True al=DISTRIBUTE (4) >> 专  业:
+   [2,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [2,2] sz=None fn=None b=None al=CENTER (1) >> 
+   [2,3] sz=None fn=None b=None al=CENTER (1) >> 
+   [3,0] sz=16.0 fn=None b=True al=DISTRIBUTE (4) >> 题  目:
+   [3,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [3,2] sz=None fn=None b=None al=CENTER (1) >> 
+   [3,3] sz=None fn=None b=None al=CENTER (1) >> 
+   [4,0] sz=None fn=None b=None al=DISTRIBUTE (4) >> 
+   [4,1] sz=None fn=None b=None al=CENTER (1) >> 
+   [4,2] sz=None fn=None b=None al=CENTER (1) >> 
+   [4,3] sz=None fn=None b=None al=CENTER (1) >> 
+--- table 4 style=Normal Table rows=1 cols=4
+   [0,0] sz=None fn=None b=None al=CENTER (1) >> 
+   [0,1] sz=16.0 fn=None b=None al=CENTER (1) >> 年
+   [0,2] sz=None fn=None b=None al=CENTER (1) >> 
+   [0,3] sz=16.0 fn=None b=None al=CENTER (1) >> 月
+
+########## 节 ##########
+--- section 0: 7560945 x 10693400  margins L=1080135 R=1080135 T=914400 B=914400
+    HDR >> ''
+    FTR >> ''
+--- section 1: 7560945 x 10693400  margins L=900430 R=648335 T=914400 B=914400
+    HDR >> ''
+    FTR >> ''
+--- section 2: 7560310 x 10692130  margins L=1143000 R=1143000 T=914400 B=914400
+    HDR >> ''
+    FTR >> ''
+--- section 3: 7560310 x 10692130  margins L=1143000 R=1143000 T=914400 B=914400
+    HDR >> '炎黄职业技术学院毕业论文           第 1 页  共 4 页'
+    HDR >> ''
+    FTR >> ''
