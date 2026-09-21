@@ -13,33 +13,29 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: 提取正式目录原件和文本，不修改论文
+      - name: 提取模板和核验脚本，不修改论文
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          import shutil, zipfile, json, hashlib
-          from xml.etree import ElementTree as ET
+          import shutil
           root = Path('新建文件夹/新建文件夹')
-          out = Path('paper-audit-artifact')
+          out = Path('paper-template-artifact')
           out.mkdir()
-          ns = {'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
-          for folder in sorted(root.iterdir()):
-              if not folder.is_dir() or folder.name.startswith(('.', '_')):
-                  continue
-              for src in sorted(folder.glob('*.docx')):
-                  shutil.copy2(src, out/src.name)
-                  with zipfile.ZipFile(src) as z:
-                      xml = ET.fromstring(z.read('word/document.xml'))
-                      paragraphs = []
-                      for i,p in enumerate(xml.findall('.//w:p', ns)):
-                          text = ''.join(t.text or '' for t in p.findall('.//w:t', ns))
-                          paragraphs.append({'index':i, 'text':text})
-                      report = {'path':str(src), 'sha256':hashlib.sha256(src.read_bytes()).hexdigest(), 'paragraphs':paragraphs}
-                      (out/(src.stem+'.json')).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
-                  print('原件:', src, '段落数:', len(paragraphs), 'SHA256:', report['sha256'])
+          for src in root.glob('*.docx'):
+              shutil.copy2(src, out/src.name)
+          for folder in [root/'.workbuddy-ai/work', root/'_排版工作区']:
+              for pattern in ['*.py', '*.txt']:
+                  for src in folder.glob(pattern):
+                      if src.stat().st_size > 1000000:
+                          continue
+                      dst = out/folder.name/src.name
+                      dst.parent.mkdir(parents=True, exist_ok=True)
+                      shutil.copy2(src, dst)
+          for src in root.glob('*.html'):
+              shutil.copy2(src, out/src.name)
           PY
       - uses: actions/upload-artifact@v4
         with:
-          name: paper-originals-and-text
-          path: paper-audit-artifact/
+          name: paper-template-and-checks
+          path: paper-template-artifact/
           retention-days: 7
