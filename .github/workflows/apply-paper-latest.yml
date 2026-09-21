@@ -1,0 +1,31 @@
+name: 应用论文最新修订
+on:
+  push:
+    branches: [paper-content-review-20260921]
+    paths:
+      - .paper_patch/READY
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: 应用三篇论文内容与参考文献修订
+        run: python .paper_patch/apply.py
+      - name: 提交三篇正式论文
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例.docx"
+          git add "新建文件夹/新建文件夹/再生混凝土在装配式建筑中的应用评价——以住宅项目为例/再生混凝土在装配式建筑中的应用评价——以住宅项目为例.docx"
+          git add "新建文件夹/新建文件夹/装配式施工质量管理问题及优化研究——以市政项目为例/装配式施工质量管理问题及优化研究——以市政项目为例.docx"
+          if git diff --cached --quiet; then
+            echo "没有文件变化"
+          else
+            git commit -m "优化三篇论文内容与中英文参考文献"
+            git push
+          fi
