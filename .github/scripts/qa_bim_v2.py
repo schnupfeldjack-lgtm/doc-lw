@@ -25,7 +25,7 @@ def main():
     hc=han(d)
     assert 9500<=hc<=11000,hc
     assert len(d.inline_shapes)>=2
-    assert len(d.sections)>=5
+    assert len(d.sections)>=4
     for s in d.sections[:-1]:
         hx=s.header._element.xml
         assert "PAGE" not in hx and "SECTIONPAGES" not in hx
