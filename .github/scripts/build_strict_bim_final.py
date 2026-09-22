@@ -298,6 +298,11 @@ def rebuild_strict_layout(src, template, dst):
                     r.font.name = "宋体"
                     r._element.get_or_add_rPr().get_or_add_rFonts().set(qn("w:eastAsia"), "宋体")
                     r.font.size = Pt(12)
+            # 当前论文目录条目较多，严格版目录分页：第7页至“5 案例分析与优化对策”，第8页从5.1继续
+            if norm(ptext(p)).startswith("5．1案例分析"):
+                p.paragraph_format.page_break_before = True
+        # 正文固定从第9页起，避免目录与正文挤在同一页
+        ps[body_idx].paragraph_format.page_break_before = True
 
     # 英文摘要独立一页
     for p in doc.paragraphs:
