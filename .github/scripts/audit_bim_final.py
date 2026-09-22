@@ -9,7 +9,7 @@ ps=d.paragraphs
 anchors={}
 for i,p in enumerate(ps):
     t=p.text.strip().replace(" ","")
-    if t.startswith("1绪论") and "body" not in anchors: anchors["body"]=i
+    if t.startswith("1绪论"): anchors["body"]=i
     if t in ("结论","结论与展望","结论与展望") or t.startswith("结论"): anchors.setdefault("conclusion",i)
     if t=="参考文献": anchors.setdefault("ref",i)
     if t=="致谢": anchors.setdefault("ack",i)
@@ -20,7 +20,7 @@ for k,v in anchors.items():
         p=ps[j]
         print(j,repr(p.text), "style=",p.style.name if p.style else None, "pageBreakBefore=",p.paragraph_format.page_break_before)
 start=anchors.get("body",0)
-end=anchors.get("conclusion",anchors.get("ref",len(ps)))
+end=anchors.get("ref",len(ps))
 body=''.join(p.text for p in ps[start:end])
 han=len(re.findall(r'[\u4e00-\u9fff]',body))
 chars=len(re.sub(r'\s+','',body))
