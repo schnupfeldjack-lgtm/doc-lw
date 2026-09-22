@@ -19,6 +19,8 @@ import zipfile
 from docx import Document
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from docx.shared import Pt
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from lxml import etree
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -271,6 +273,31 @@ def rebuild_strict_layout(src, template, dst):
     doc = Document(src)
     td = Document(template)
     update_toc_cache(doc)
+
+    # 目录严格按学校模板：标题黑体小二加粗居中；目录正文宋体小四、固定28磅
+    ps = doc.paragraphs
+    toc_title_idx = next((i for i, p in enumerate(ps) if norm(ptext(p)) == "目录"), None)
+    body_candidates = [i for i, p in enumerate(ps) if norm(ptext(p)).startswith("1绪论")]
+    body_idx = body_candidates[-1] if body_candidates else None
+    if toc_title_idx is not None and body_idx is not None and body_idx > toc_title_idx:
+        tp = ps[toc_title_idx]
+        tp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        tp.paragraph_format.first_line_indent = Pt(0)
+        for r in tp.runs:
+            if r.text:
+                r.font.name = "黑体"
+                r._element.get_or_add_rPr().get_or_add_rFonts().set(qn("w:eastAsia"), "黑体")
+                r.font.size = Pt(18)
+                r.bold = True
+        for p in ps[toc_title_idx + 1:body_idx]:
+            if not ptext(p):
+                continue
+            p.paragraph_format.line_spacing = Pt(28)
+            for r in p.runs:
+                if r.text:
+                    r.font.name = "宋体"
+                    r._element.get_or_add_rPr().get_or_add_rFonts().set(qn("w:eastAsia"), "宋体")
+                    r.font.size = Pt(12)
 
     # 英文摘要独立一页
     for p in doc.paragraphs:
