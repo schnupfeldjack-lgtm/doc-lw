@@ -1,0 +1,100 @@
+name: 生成再生混凝土论文最终优化版
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/build_p1_v2.py"
+      - ".github/scripts/finalize_p1_v2.py"
+      - ".github/scripts/update_p1_v2.py"
+      - ".github/scripts/qa_p1_v2.py"
+      - ".github/workflows/build-p1-v2-final.yml"
+      - "新建文件夹/新建文件夹/.workbuddy-ai/work/p1_v2_*.md"
+      - "新建文件夹/新建文件夹/.workbuddy-ai/work/gen_figs_p1_v2.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖与渲染环境
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-docx lxml matplotlib pillow pdfplumber
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer poppler-utils fonts-noto-cjk fonts-arphic-ukai
+
+      - name: 生成原创技术图
+        run: python "新建文件夹/新建文件夹/.workbuddy-ai/work/gen_figs_p1_v2.py"
+
+      - name: 从炎黄模板生成重写版
+        run: python .github/scripts/build_p1_v2.py
+
+      - name: 最终结构和格式处理
+        run: python .github/scripts/finalize_p1_v2.py
+
+      - name: 首次渲染
+        shell: bash
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/再生混凝土在装配式建筑中的应用评价——以住宅项目为例/再生混凝土在装配式建筑中的应用评价——以住宅项目为例_最终优化版.docx"
+          rm -rf qa_p1_v2 && mkdir -p qa_p1_v2/pass1 qa_p1_v2/final
+          libreoffice --headless --convert-to pdf --outdir qa_p1_v2/pass1 "$DOC"
+
+      - name: 校准目录与正文页码
+        shell: bash
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/再生混凝土在装配式建筑中的应用评价——以住宅项目为例/再生混凝土在装配式建筑中的应用评价——以住宅项目为例_最终优化版.docx"
+          PDF="$(find qa_p1_v2/pass1 -maxdepth 1 -name '*.pdf' -print -quit)"
+          python .github/scripts/update_p1_v2.py "$DOC" "$PDF"
+
+      - name: 最终渲染与严格校验
+        shell: bash
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/再生混凝土在装配式建筑中的应用评价——以住宅项目为例/再生混凝土在装配式建筑中的应用评价——以住宅项目为例_最终优化版.docx"
+          libreoffice --headless --convert-to pdf --outdir qa_p1_v2/final "$DOC"
+          PDF="$(find qa_p1_v2/final -maxdepth 1 -name '*.pdf' -print -quit)"
+          python .github/scripts/qa_p1_v2.py "$DOC" "$PDF"
+          TOTAL="$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')"
+          pdftoppm -png -r 100 -f 1 -l 9 "$PDF" qa_p1_v2/final/front >/dev/null 2>&1
+          START=$(( TOTAL > 3 ? TOTAL-3 : 1 ))
+          pdftoppm -png -r 100 -f "$START" -l "$TOTAL" "$PDF" qa_p1_v2/final/tail >/dev/null 2>&1
+
+      - name: 提交最终版
+        shell: bash
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/再生混凝土在装配式建筑中的应用评价——以住宅项目为例/再生混凝土在装配式建筑中的应用评价——以住宅项目为例_最终优化版.docx"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DOC"
+          if git diff --cached --quiet; then
+            echo "最终版无变化"
+          else
+            git commit -m "生成再生混凝土论文最终优化版"
+            git push
+          fi
+
+      - name: 上传最终论文与校验文件
+        uses: actions/upload-artifact@v4
+        with:
+          name: 再生混凝土论文最终优化版
+          path: |
+            新建文件夹/新建文件夹/再生混凝土在装配式建筑中的应用评价——以住宅项目为例/再生混凝土在装配式建筑中的应用评价——以住宅项目为例_最终优化版.docx
+            qa_p1_v2/final/*.pdf
+            qa_p1_v2/final/*.png
