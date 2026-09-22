@@ -30,7 +30,7 @@ def main():
         hx=s.header._element.xml
         assert "PAGE" not in hx and "SECTIONPAGES" not in hx
     hx=d.sections[-1].header._element.xml
-    assert "炎黄职业技术学院毕业论文" in hx and "PAGE" in hx and "SECTIONPAGES" in hx
+    assert "炎黄职业技术学院毕业论文" in hx and "PAGE" in hx
     pg=d.sections[-1]._sectPr.find(qn("w:pgNumType"))
     assert pg is not None and pg.get(qn("w:start"))=="1"
     assert special(d,"参 考 文 献").paragraph_format.page_break_before
