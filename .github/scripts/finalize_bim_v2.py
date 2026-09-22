@@ -260,8 +260,8 @@ def build_body_header(header):
 
 def set_body_paging(doc_path):
     d=Document(doc_path)
-    if len(d.sections)<5:
-        raise RuntimeError(f"正文分节失败，当前节数={len(d.sections)}")
+    if len(d.sections)<4:
+        raise RuntimeError(f"正文分节结构异常，当前节数={len(d.sections)}")
     # 前置全部不显示页眉页脚
     for s in d.sections[:-1]:
         s.header.is_linked_to_previous=False;clear_header(s.header)
@@ -287,7 +287,7 @@ def main():
     d=Document(SRC)
     trim_body(d)
     format_special_pages(d)
-    split_before_body(d)
+    # 严格版原文件已经在正文前完成分节；不再新增分节，避免产生额外空白页。
     d.save(OUT)
     set_body_paging(OUT)
     # 最终结构复核
@@ -296,7 +296,7 @@ def main():
     ack=find_special(d,"致 谢")
     print("FINAL",OUT,OUT.stat().st_size,"sections",len(d.sections),"han",n,"ack_pagebreak",ack.paragraph_format.page_break_before)
     assert 9500<=n<=11000
-    assert len(d.sections)>=5
+    assert len(d.sections)>=4
 
 if __name__=="__main__":
     main()
