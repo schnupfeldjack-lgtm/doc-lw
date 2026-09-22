@@ -216,11 +216,16 @@ def update_toc_cache(doc):
         "参考文献": 29,
     }
     ps = doc.paragraphs
-    # 仅处理目录区域：模板/成稿中目录在正文前
-    for i in range(min(35, len(ps)), min(70, len(ps))):
+    # 只允许更新“目录标题”与真正正文“1 绪论”之间的条目，防止把正文编号1误改为页码9
+    toc_idx = next((i for i, p in enumerate(ps) if norm(ptext(p)) == "目录"), None)
+    body_idx = None
+    if toc_idx is not None:
+        body_idx = next((i for i in range(toc_idx + 1, len(ps)) if norm(ptext(ps[i])) == "1绪论"), None)
+    if toc_idx is None or body_idx is None:
+        raise RuntimeError("无法定位目录或正文首章")
+    for i in range(toc_idx + 1, body_idx):
         p = ps[i]
-        raw = ptext(p)
-        key = norm(raw)
+        key = norm(ptext(p))
         target = None
         for prefix, page in pages.items():
             if key.startswith(prefix):
@@ -229,7 +234,6 @@ def update_toc_cache(doc):
         if target is None:
             continue
         nodes = text_nodes(p)
-        # 优先替换最后一个纯数字文本节点（静态目录页码）
         replaced = False
         for n in reversed(nodes):
             if (n.text or "").strip().isdigit():
@@ -237,9 +241,8 @@ def update_toc_cache(doc):
                 replaced = True
                 break
         if not replaced and nodes:
-            # 若页码与标题在同一节点，替换末尾数字
-            old = nodes[-1].text or ""
-            nodes[-1].text = re.sub(r"\d+\s*$", str(target), old)
+            old_text = nodes[-1].text or ""
+            nodes[-1].text = re.sub(r"\d+\s*$", str(target), old_text)
 
 def make_pagebreak_p():
     p = OxmlElement("w:p")
@@ -277,7 +280,7 @@ def rebuild_strict_layout(src, template, dst):
     # 目录严格按学校模板：标题黑体小二加粗居中；目录正文宋体小四、固定28磅
     ps = doc.paragraphs
     toc_title_idx = next((i for i, p in enumerate(ps) if norm(ptext(p)) == "目录"), None)
-    body_candidates = [i for i, p in enumerate(ps) if norm(ptext(p)).startswith("1绪论")]
+    body_candidates = [i for i, p in enumerate(ps) if norm(ptext(p)) == "1绪论"]
     body_idx = body_candidates[-1] if body_candidates else None
     if toc_title_idx is not None and body_idx is not None and body_idx > toc_title_idx:
         tp = ps[toc_title_idx]
