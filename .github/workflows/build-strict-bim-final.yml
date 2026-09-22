@@ -49,6 +49,10 @@ jobs:
           test -n "$PDF"
           PAGES="$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')"
           echo "渲染页数=$PAGES"
+          for I in 1 2 3 4 5 6 7 8 9; do
+            echo "===== PDF PAGE $I ====="
+            pdftotext -f "$I" -l "$I" -layout "$PDF" - | sed '/^[[:space:]]*$/d' | head -n 12 || true
+          done
           test "$PAGES" = "31"
           # 全部页面渲染，防止文档可打开但分页/对象渲染失败
           pdftoppm -png -r 90 "$PDF" qa_render/page >/dev/null 2>&1
