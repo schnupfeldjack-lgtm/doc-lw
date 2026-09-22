@@ -176,7 +176,7 @@ def format_special_pages(doc):
                 r.font.size=Pt(14);r.bold=True
     # 致谢正文紧接标题，不再保留多余空白
     ps=doc.paragraphs
-    ai=ps.index(ack)
+    ai=next(i for i,p in enumerate(ps) if norm(p.text)=="致谢")
     if ai+1<len(ps):
         body=ps[ai+1]
         body.paragraph_format.space_before=Pt(0)
