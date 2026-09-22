@@ -8,6 +8,7 @@ on:
       - ".github/scripts/finalize_p1_v2.py"
       - ".github/scripts/update_p1_v2.py"
       - ".github/scripts/qa_p1_v2.py"
+      - ".github/scripts/patch_p1_v2_images.py"
       - ".github/workflows/build-p1-v2-final.yml"
       - "新建文件夹/新建文件夹/.workbuddy-ai/work/p1_v2_*.md"
       - ".github/scripts/gen_figs_p1_v2.py"
@@ -45,6 +46,9 @@ jobs:
 
       - name: 最终结构和格式处理
         run: python .github/scripts/finalize_p1_v2.py
+
+      - name: 修复原创图片嵌入关系
+        run: python .github/scripts/patch_p1_v2_images.py
 
       - name: 首次渲染
         shell: bash
