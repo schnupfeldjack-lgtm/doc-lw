@@ -102,15 +102,23 @@ def main():
     assert f"第1页共{body_pages}页" in nts[bphys-1],nts[bphys-1][:150]
     assert f"第{body_pages}页共{body_pages}页" in nts[-1],nts[-1][:150]
     # 参考文献、致谢各自起页；致谢标题不能掉到页面中下部
-    rphys=next(i for i,t in enumerate(nts,1) if "参考文献" in t and any("[1]" in texts[i-1] or "海然" in texts[i-1] for _ in [0]))
-    aphys=next(i for i,t in enumerate(nts,1) if "致谢" in t and "论文" in t)
+    rphys=next(i for i in range(bphys,total+1)
+               if "参考文献" in nts[i-1] and ("[1]" in texts[i-1] or "海然" in texts[i-1]))
+    aphys=next(i for i in range(bphys,total+1) if "致谢" in nts[i-1] and "论文" in texts[i-1])
+    assert rphys>bphys and aphys>rphys
     with pdfplumber.open(pdf) as pf:
+        rwords=pf.pages[rphys-1].extract_words()
+        rcand=[w for w in rwords if "参考文献" in w["text"] or "参考" in w["text"]]
+        assert rcand,"无法识别参考文献标题"
+        rtop=min(w["top"] for w in rcand)
+        assert rtop<230,f"参考文献标题过低 top={rtop}"
         words=pf.pages[aphys-1].extract_words()
         cand=[w for w in words if w["text"] in ("致","谢","致谢") or "致" in w["text"] or "谢" in w["text"]]
         assert cand,"无法识别致谢标题"
         top=min(w["top"] for w in cand)
         assert top<230,f"致谢标题过低 top={top}"
     print("QA_OK","han",hc,"pages",total,"body_start",bphys,"body_pages",body_pages,
-          "refs",len(refs),"citations",f"{sup}/{total_cite}","ref_page",rphys,"ack_page",aphys,"ack_top",round(top,1))
+          "refs",len(refs),"citations",f"{sup}/{total_cite}","ref_page",rphys,"ref_top",round(rtop,1),
+          "ack_page",aphys,"ack_top",round(top,1))
 
 if __name__=="__main__":main()
