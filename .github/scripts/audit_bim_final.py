@@ -3,7 +3,7 @@ from pathlib import Path
 from docx import Document
 import re
 ROOT=Path(__file__).resolve().parents[2]
-DOC=ROOT/"新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_图片修复版.docx"
+DOC=ROOT/"新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_炎黄模板严格版_图片已补全.docx"
 d=Document(DOC)
 ps=d.paragraphs
 anchors={}
