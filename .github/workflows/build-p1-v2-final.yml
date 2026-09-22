@@ -10,7 +10,7 @@ on:
       - ".github/scripts/qa_p1_v2.py"
       - ".github/workflows/build-p1-v2-final.yml"
       - "新建文件夹/新建文件夹/.workbuddy-ai/work/p1_v2_*.md"
-      - "新建文件夹/新建文件夹/.workbuddy-ai/work/gen_figs_p1_v2.py"
+      - ".github/scripts/gen_figs_p1_v2.py"
   workflow_dispatch:
 
 permissions:
@@ -38,7 +38,7 @@ jobs:
           sudo apt-get install -y libreoffice-writer poppler-utils fonts-noto-cjk fonts-arphic-ukai
 
       - name: 生成原创技术图
-        run: python "新建文件夹/新建文件夹/.workbuddy-ai/work/gen_figs_p1_v2.py"
+        run: python .github/scripts/gen_figs_p1_v2.py
 
       - name: 从炎黄模板生成重写版
         run: python .github/scripts/build_p1_v2.py
