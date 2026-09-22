@@ -1,0 +1,72 @@
+name: 生成BIM论文最终版
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/finalize_bim_v2.py"
+      - ".github/scripts/update_bim_toc_v2.py"
+      - ".github/scripts/qa_bim_v2.py"
+      - ".github/workflows/build-bim-v2-final.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: 安装 Python 依赖
+        run: pip install python-docx lxml pillow pdfplumber
+      - name: 生成终稿
+        run: python .github/scripts/finalize_bim_v2.py
+      - name: 安装渲染环境
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer poppler-utils fonts-noto-cjk fonts-arphic-ukai
+      - name: 首次渲染
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_最终版.docx"
+          rm -rf qa_final && mkdir -p qa_final/pass1 qa_final/final
+          libreoffice --headless --convert-to pdf --outdir qa_final/pass1 "$DOC"
+      - name: 按最终渲染结果校准目录页码
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_最终版.docx"
+          PDF="$(find qa_final/pass1 -maxdepth 1 -name '*.pdf' -print -quit)"
+          python .github/scripts/update_bim_toc_v2.py "$DOC" "$PDF"
+      - name: 最终渲染与严格校验
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_最终版.docx"
+          libreoffice --headless --convert-to pdf --outdir qa_final/final "$DOC"
+          PDF="$(find qa_final/final -maxdepth 1 -name '*.pdf' -print -quit)"
+          python .github/scripts/qa_bim_v2.py "$DOC" "$PDF"
+          pdftoppm -png -r 100 -f 1 -l 9 "$PDF" qa_final/final/page >/dev/null 2>&1
+          # 额外渲染最后3页用于核验参考文献/致谢
+          TOTAL="$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')"
+          START=$(( TOTAL > 2 ? TOTAL-2 : 1 ))
+          pdftoppm -png -r 100 -f "$START" -l "$TOTAL" "$PDF" qa_final/final/tail >/dev/null 2>&1
+      - name: 提交最终版
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_最终版.docx"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DOC"
+          if git diff --cached --quiet; then
+            echo "最终版无变化"
+          else
+            git commit -m "生成BIM论文最终版"
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BIM论文最终版
+          path: |
+            新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_最终版.docx
+            qa_final/final/*.pdf
+            qa_final/final/*.png
