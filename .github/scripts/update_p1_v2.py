@@ -88,9 +88,9 @@ def main():
         if "炎黄职业技术学院毕业论文" in t and "第1页" in t and "1绪论" in t:
             bphys=i;break
     if bphys is None:
-        # 兜底：跳过前置页后寻找正文首章
-        for i,t in enumerate(npages[8:],9):
-            if "1绪论" in t:
+        # 兜底：用正文首节及首段特征定位，避免目录页的“1 绪论”被误判。
+        for i,t in enumerate(npages[6:],7):
+            if "研究问题的重新界定" in t or ("1绪论" in t and "建筑固废资源化" in t):
                 bphys=i;break
     if bphys is None:raise RuntimeError("无法确定正文物理起始页")
     body_pages=len(pages)-bphys+1
