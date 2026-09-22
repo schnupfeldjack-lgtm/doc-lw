@@ -31,3 +31,10 @@ for si,s in enumerate(d.sections):
           "top",s.top_margin,"bottom",s.bottom_margin,"left",s.left_margin,"right",s.right_margin,
           "header_link",s.header.is_linked_to_previous,"footer_link",s.footer.is_linked_to_previous)
     print(" header text:",[p.text for p in s.header.paragraphs])
+
+print("\nBODY PARAGRAPHS")
+for i in range(anchors.get("body",0), anchors.get("ref",len(ps))):
+    t=ps[i].text.strip()
+    if t:
+        import re as _re
+        print(i, len(_re.findall(r'[\\u4e00-\\u9fff]',t)), repr(t[:120]))
