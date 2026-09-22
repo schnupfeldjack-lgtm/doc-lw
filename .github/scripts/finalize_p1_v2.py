@@ -136,6 +136,74 @@ def rebuild_extra_toc_entries(d):
         add_text("0")
         anchor.addnext(new);anchor=new
 
+
+def remove_template_residue(d):
+    markers=[
+        "正文中公式、图与表的字体一律用5号宋体",
+        "正文各页的格式请以此页为标准复制",
+        "为保证打印效果",
+        "说明：结论",
+        "说明:结论",
+        "参考文献著录规则",
+        "毕业设计论文所列",
+    ]
+    s=body_index(d);e=ref_index(d)
+    for p in list(d.paragraphs[s:e]):
+        if any(m in p.text for m in markers):
+            delete_p(p)
+
+def ensure_front_pagination(d):
+    # 中文摘要=物理第5页、英文摘要=第6页、目录=第7-8页、正文=第9页。
+    ps=d.paragraphs
+    # English abstract starts a new page.
+    for p in ps:
+        if p.text.strip().startswith("Abstract"):
+            p.paragraph_format.page_break_before=True
+            break
+    # TOC title starts a new page.
+    toc=None
+    for p in d.paragraphs:
+        if norm(p.text)=="目录":
+            toc=p;break
+    if toc is not None:
+        toc.paragraph_format.page_break_before=True
+    # Force second TOC page at Chapter 4.
+    bi=body_index(d)
+    ti=next((i for i,p in enumerate(d.paragraphs) if norm(p.text)=="目录"),None)
+    if ti is not None:
+        for p in d.paragraphs[ti+1:bi]:
+            if norm(p.text.split("\t")[0]).startswith("4面向装配式住宅的证据分层评价"):
+                p.paragraph_format.page_break_before=True
+                break
+
+def _has_page_break(el):
+    return bool(el.xpath(".//w:br[@w:type='page']"))
+
+def split_before_body(d):
+    # Give正文 its own section. Remove page-break duplication first to avoid a blank page.
+    bi=body_index(d); bp=d.paragraphs[bi]
+    bp.paragraph_format.page_break_before=False
+    prev=bp._element.getprevious()
+    if prev is not None and prev.tag==qn("w:p") and _has_page_break(prev):
+        pp=prev.find(qn("w:pPr"))
+        has_sect=pp is not None and pp.find(qn("w:sectPr")) is not None
+        if not has_sect:
+            prev.getparent().remove(prev)
+
+    final_sect=d._element.body.find(qn("w:sectPr"))
+    if final_sect is None:
+        raise RuntimeError("文档缺少末节节属性")
+    pre=copy.deepcopy(final_sect)
+    for tag in ("w:headerReference","w:footerReference","w:pgNumType"):
+        for x in list(pre.findall(qn(tag))):
+            pre.remove(x)
+    typ=pre.find(qn("w:type"))
+    if typ is None:
+        typ=OxmlElement("w:type");pre.insert(0,typ)
+    typ.set(qn("w:val"),"nextPage")
+    carrier=OxmlElement("w:p");pPr=OxmlElement("w:pPr");pPr.append(pre);carrier.append(pPr)
+    bp._element.addprevious(carrier)
+
 def clear_header(h):
     root=h._element
     for x in list(root):root.remove(x)
@@ -237,9 +305,12 @@ def main():
     if not DOCX.exists():raise FileNotFoundError(DOCX)
     d=Document(DOCX)
     remove_duplicate_standalone_conclusion(d)
+    remove_template_residue(d)
     rebuild_extra_toc_entries(d)
+    ensure_front_pagination(d)
     style_special_pages(d)
     superscript_citations(d)
+    split_before_body(d)
     set_body_pagination(d)
     n=han_count(d)
     d.save(DOCX)
