@@ -5,8 +5,8 @@
 [4]  郭舒颖, 张宗富, 王东阳, 杨光城, 符永辉, 李兵. 再生混凝土密拼双向叠合板的力学性能研究[J]. 海南大学学报(自然科学版中英文), 2026. DOI:10.65658/j.hndk.2026010501.
 [5]  王淑嫱, 阮浩, 邹贻权, 刘苗苗. 装配式建筑预制混凝土构件的布局优化[J]. 土木与环境工程学报, 2024, 46(1): 207-214. DOI:10.11835/j.issn.2096-6717.2022.058.
 [6]  刘通昌, 张宗起. 装配式混凝土框架结构创新节点应用研究[J]. 建设科技, 2024(24): 51-54. DOI:10.16116/j.cnki.jskj.2024.24.013.
-[7]  广西大学土木建筑工程学院-双碳科学与技术发展研究院. 全球首栋30层百米级再生混凝土结构公寓封顶[EB/OL]. 2026-06-18.
-[8]  广西大学设计院有限公司. 广西大学研究生公寓[EB/OL]. 2022-05-20.
+[7]  广西大学土木建筑工程学院-双碳科学与技术发展研究院. 全球首栋30层百米级再生混凝土结构公寓封顶[EB/OL]. (2026-06-18)[2026-09-22]. https://carbon.gxu.edu.cn/info/1032/2332.htm.
+[8]  广西大学设计院有限公司. 广西大学研究生公寓[EB/OL]. (2022-05-20)[2026-09-22]. https://sjy.gxu.edu.cn/info/1042/1294.htm.
 [9]  国家质量监督检验检疫总局, 国家标准化管理委员会. 混凝土用再生粗骨料: GB/T 25177-2010[S]. 北京: 中国标准出版社, 2010.
 [10] XIAO J, YU C, WANG B, et al. Recycled aggregate concrete design, application and challenges[J]. Nature Reviews Clean Technology, 2026, 2: 67-83.
 [11] HASHEMINEZHAD A, KING D, CEYLAN H, KIM S. Comparative life cycle assessment of natural and recycled aggregate concrete: A review[J]. Science of the Total Environment, 2024, 950: 175310.
