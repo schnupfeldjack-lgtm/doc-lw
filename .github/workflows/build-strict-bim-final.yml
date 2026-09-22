@@ -1,0 +1,99 @@
+name: 生成BIM论文严格格式图片完整版
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/build_strict_bim_final.py"
+      - ".github/workflows/build-strict-bim-final.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装 Python 依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-docx lxml pillow
+
+      - name: 生成严格格式且补全图片的论文
+        run: python .github/scripts/build_strict_bim_final.py
+
+      - name: 安装渲染环境
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer poppler-utils fonts-noto-cjk fonts-arphic-ukai
+
+      - name: 渲染并校验页数
+        shell: bash
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_炎黄模板严格版_图片已补全.docx"
+          mkdir -p qa_render
+          libreoffice --headless --convert-to pdf --outdir qa_render "$DOC"
+          PDF="$(find qa_render -maxdepth 1 -name '*.pdf' -print -quit)"
+          test -n "$PDF"
+          PAGES="$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')"
+          echo "渲染页数=$PAGES"
+          test "$PAGES" = "31"
+          # 全部页面渲染，防止文档可打开但分页/对象渲染失败
+          pdftoppm -png -r 90 "$PDF" qa_render/page >/dev/null 2>&1
+          COUNT="$(find qa_render -maxdepth 1 -name 'page-*.png' | wc -l)"
+          echo "PNG页数=$COUNT"
+          test "$COUNT" = "31"
+          # 抽检图片所在正文范围与前置页面文件均实际生成
+          test -s qa_render/page-01.png
+          test -s qa_render/page-03.png
+          test -s qa_render/page-04.png
+          test -s qa_render/page-05.png
+          test -s qa_render/page-07.png
+          test -s qa_render/page-09.png
+          test -s qa_render/page-17.png
+          test -s qa_render/page-22.png
+          test -s qa_render/page-23.png
+
+      - name: 提交最终论文
+        shell: bash
+        run: |
+          set -euo pipefail
+          DOC="新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_炎黄模板严格版_图片已补全.docx"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DOC"
+          if git diff --cached --quiet; then
+            echo "最终文件无变化"
+          else
+            git commit -m "生成BIM论文严格格式图片完整版"
+            git push
+          fi
+
+      - name: 上传最终文件与渲染检查
+        uses: actions/upload-artifact@v4
+        with:
+          name: BIM论文严格格式图片完整版
+          path: |
+            新建文件夹/新建文件夹/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例/BIM协同设计对建筑结构设计质量的影响研究——以装配式住宅项目为例_炎黄模板严格版_图片已补全.docx
+            qa_render/*.pdf
+            qa_render/page-01.png
+            qa_render/page-03.png
+            qa_render/page-04.png
+            qa_render/page-05.png
+            qa_render/page-07.png
+            qa_render/page-09.png
+            qa_render/page-17.png
+            qa_render/page-22.png
+            qa_render/page-23.png
