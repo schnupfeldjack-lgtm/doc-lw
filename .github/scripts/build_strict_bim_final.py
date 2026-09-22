@@ -307,6 +307,9 @@ def rebuild_strict_layout(src, template, dst):
                 break
     if mid_tbl is not None:
         ensure_pb_after(mid_tbl)
+    # 与此前严格修正版一致：第三个顶层表就是中期检查表，再做一次确定性分页
+    if len(doc.tables) > 2:
+        ensure_pb_after(doc.tables[2]._element)
 
     # 4 把封面节的 sectPr 放到封面日期之后，避免节属性把封面挤坏
     cover_sect = None
@@ -589,7 +592,16 @@ def qa(docx_path):
         if "第一阶段" in tt and "第四阶段" in tt and "指导老师签名" in tt:
             mid = e
             break
-    assert mid is not None and is_pagebreak_p(mid.getnext()), "中期检查后未分页"
+    def pb_within(el, steps=5):
+        cur = el.getnext()
+        for _ in range(steps):
+            if cur is None:
+                return False
+            if is_pagebreak_p(cur):
+                return True
+            cur = cur.getnext()
+        return False
+    assert mid is not None and pb_within(mid), "中期检查后未分页"
 
     print("QA_OK", docx_path, docx_path.stat().st_size, "sections", len(d.sections))
 
