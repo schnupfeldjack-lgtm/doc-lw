@@ -3,7 +3,9 @@ from pathlib import Path
 import re,subprocess,sys,zipfile
 from docx import Document
 from docx.oxml.ns import qn
-import pdfplumber\nfrom PIL import Image\nimport io
+import pdfplumber
+from PIL import Image
+import io
 
 def norm(s):return re.sub(r"\s+","",s).replace("–","-").replace("—","-")
 def ptext(pdf,i):return subprocess.check_output(["pdftotext","-f",str(i),"-l",str(i),"-layout",str(pdf),"-"],text=True,errors="ignore")
