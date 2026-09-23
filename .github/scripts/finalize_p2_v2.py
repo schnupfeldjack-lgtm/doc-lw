@@ -119,8 +119,8 @@ def repair_front_paging(d):
         nxt=d.tables[2]._element.getnext()
         while is_pb(nxt):
             nn=nxt.getnext(); nxt.getparent().remove(nxt); nxt=nn
-    # 英文摘要、目录、正文均从新页开始
-    for key in ("Abstract：","目  录","1  引言"):
+    # 中英文摘要、目录、正文均从新页开始
+    for key in ("摘 要：","Abstract：","目  录","1  引言"):
         p=next((p for p in d.paragraphs if p.text.strip().startswith(key)),None)
         if p:
             p.paragraph_format.page_break_before=True
