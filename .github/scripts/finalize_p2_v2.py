@@ -184,7 +184,7 @@ def build_header(h,total=1):
     root.append(p)
 
 def fix_headers(d):
-    if len(d.sections)<3: raise RuntimeError("节数量异常")
+    if len(d.sections)<2: raise RuntimeError(f"节数量异常: {len(d.sections)}")
     for s in d.sections[:-1]:
         s.header.is_linked_to_previous=False;clear_hf(s.header)
         s.footer.is_linked_to_previous=False;clear_hf(s.footer)
