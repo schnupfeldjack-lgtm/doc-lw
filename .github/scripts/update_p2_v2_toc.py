@@ -89,6 +89,8 @@ def main():
         for k in ("结论","参考文献","致谢"):
             el=toc_special[k]._element
             cur.addnext(el);cur=el
+    def page_has_heading(page_text,key):
+        return any(norm(line)==key for line in page_text.splitlines())
     # 正文一、二级标题 + 特殊页映射
     headings=[]
     for p in d.paragraphs[bi:ri]:
@@ -97,7 +99,7 @@ def main():
     mapping={}
     for key,raw in headings:
         for phys in range(bphys,len(pages)+1):
-            if key in np[phys-1]:
+            if page_has_heading(pages[phys-1],key):
                 mapping[key]=phys-bphys+1;break
     # 更新目录缓存页码
     for p in d.paragraphs[ti+1:bi]:

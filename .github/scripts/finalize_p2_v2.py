@@ -114,8 +114,11 @@ def repair_front_paging(d):
     for el in tops:
         if el.tag==qn("w:p") and "2025年9月10日" in paragraph_text(el):
             ensure_pb_after(el); break
-    # 中期检查表：明确独立页
-    if len(d.tables)>2: ensure_pb_after(d.tables[2]._element)
+    # 中期检查后模板本身已有封面分页逻辑；移除额外显式分页，避免产生空白页。
+    if len(d.tables)>2:
+        nxt=d.tables[2]._element.getnext()
+        while is_pb(nxt):
+            nn=nxt.getnext(); nxt.getparent().remove(nxt); nxt=nn
     # 英文摘要、目录、正文均从新页开始
     for key in ("Abstract：","目  录","1  引言"):
         p=next((p for p in d.paragraphs if p.text.strip().startswith(key)),None)
@@ -144,6 +147,30 @@ def repair_front_paging(d):
                 pp=nxt.find(qn("w:pPr")); already=pp is not None and pp.find(qn("w:sectPr")) is not None
             if not already:
                 p=OxmlElement("w:p");pp=OxmlElement("w:pPr");pp.append(cover_sect);p.append(pp);cover_end.addnext(p)
+
+def remove_pb_before(el):
+    cur=el.getprevious()
+    while is_pb(cur):
+        prev=cur.getprevious();cur.getparent().remove(cur);cur=prev
+
+def split_before_body(d):
+    # 摘要和目录保持无页眉；正文“1 引言”另起新节，并从第1页计数。
+    candidates=[p for p in d.paragraphs if norm(p.text)=="1引言" and not (p.style and p.style.name.lower().startswith("toc"))]
+    if not candidates: raise RuntimeError("找不到正文首章用于分节")
+    bp=candidates[-1]
+    bp.paragraph_format.page_break_before=False
+    remove_pb_before(bp._element)
+    final_sp=d._element.body.find(qn("w:sectPr"))
+    if final_sp is None: raise RuntimeError("缺少文档末节属性")
+    pre=copy.deepcopy(final_sp)
+    for tag in ("w:headerReference","w:footerReference","w:pgNumType"):
+        for e in list(pre.findall(qn(tag))): pre.remove(e)
+    typ=pre.find(qn("w:type"))
+    if typ is None:
+        typ=OxmlElement("w:type");pre.insert(0,typ)
+    typ.set(qn("w:val"),"nextPage")
+    carrier=OxmlElement("w:p");pp=OxmlElement("w:pPr");pp.append(pre);carrier.append(pp)
+    bp._element.addprevious(carrier)
 
 def clear_hf(part):
     root=part._element
@@ -247,6 +274,7 @@ def main():
     trim_body(d)
     format_special_pages(d)
     repair_front_paging(d)
+    split_before_body(d)
     superscript_citations(d)
     fix_headers(d)
     # 清除任何残留的“待填写”占位段，终稿不得留占位数据。
