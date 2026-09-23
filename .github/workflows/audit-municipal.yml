@@ -1,0 +1,17 @@
+name: 审核市政论文终稿
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/audit_municipal.py"
+      - ".github/workflows/audit-municipal.yml"
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install python-docx
+      - run: python .github/scripts/audit_municipal.py
