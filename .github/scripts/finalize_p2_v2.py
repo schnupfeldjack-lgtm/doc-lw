@@ -158,7 +158,7 @@ def split_before_body(d):
     candidates=[p for p in d.paragraphs if norm(p.text)=="1引言" and not (p.style and p.style.name.lower().startswith("toc"))]
     if not candidates: raise RuntimeError("找不到正文首章用于分节")
     bp=candidates[-1]
-    bp.paragraph_format.page_break_before=False
+    bp.paragraph_format.page_break_before=True
     remove_pb_before(bp._element)
     final_sp=d._element.body.find(qn("w:sectPr"))
     if final_sp is None: raise RuntimeError("缺少文档末节属性")
@@ -168,7 +168,7 @@ def split_before_body(d):
     typ=pre.find(qn("w:type"))
     if typ is None:
         typ=OxmlElement("w:type");pre.insert(0,typ)
-    typ.set(qn("w:val"),"nextPage")
+    typ.set(qn("w:val"),"continuous")
     carrier=OxmlElement("w:p");pp=OxmlElement("w:pPr");pp.append(pre);carrier.append(pp)
     bp._element.addprevious(carrier)
 
