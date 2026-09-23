@@ -3,7 +3,7 @@ from pathlib import Path
 import re,subprocess,sys,zipfile
 from docx import Document
 from docx.oxml.ns import qn
-import pdfplumber
+import pdfplumber\nfrom PIL import Image\nimport io
 
 def norm(s):return re.sub(r"\s+","",s).replace("–","-").replace("—","-")
 def ptext(pdf,i):return subprocess.check_output(["pdftotext","-f",str(i),"-l",str(i),"-layout",str(pdf),"-"],text=True,errors="ignore")
@@ -23,11 +23,19 @@ def main():
         assert 'w:fill="dce6f1"' not in xml and 'w:fill="f7f9fb"' not in xml
         for bad in ("5b9bd5","70ad47","ed7d31","8064a2","2f8f9d","c94c4c"):
             assert bad not in xml
-    # 图片二进制真实嵌入
+    # 图片二进制真实嵌入，且5张正文技术图必须是纯黑白/灰度，不允许出现彩色像素。
     with zipfile.ZipFile(docx) as z:
         pngs=[x for x in z.namelist() if x.startswith("word/media/") and x.endswith(".png")]
-        sizes=[len(z.read(x)) for x in pngs]
-        assert sum(1 for x in sizes if x>100000)>=5,(pngs,sizes)
+        blobs=[(x,z.read(x)) for x in pngs]
+        big=sorted(blobs,key=lambda kv:len(kv[1]),reverse=True)[:5]
+        assert len(big)==5 and all(len(b)>100000 for _,b in big),[(n,len(b)) for n,b in big]
+        for n,b in big:
+            im=Image.open(io.BytesIO(b)).convert("RGB")
+            # 缩小后抽样，检查RGB三通道必须近似相等，即真正灰度。
+            im.thumbnail((500,500))
+            pix=list(im.getdata())
+            colored=sum(1 for rr,gg,bb in pix if max(rr,gg,bb)-min(rr,gg,bb)>3)
+            assert colored<=max(5,len(pix)//10000),(n,colored,len(pix))
     total=pages(pdf);texts=[ptext(pdf,i) for i in range(1,total+1)];np=[norm(x) for x in texts]
     bphys=next(i for i,t in enumerate(np,1) if "1引言" in t and "市政综合管廊具有线路长" in t)
     assert bphys==9,bphys
@@ -37,22 +45,22 @@ def main():
     assert f"第1页共{body_pages}页" in np[bphys-1]
     assert f"第{body_pages}页共{body_pages}页" in np[-1]
     for i,t in enumerate(np,1):assert len(t)>20,f"blank {i}"
-    # 每个图题所在页必须检测到一个主要栅格图，且图形必须处于正文页框内部，不能“飞出”。
-    with pdfplumber.open(pdf) as f:
-        for label in ("图1-1","图2-1","图3-1","图4-1","图5-1"):
-            phys=next((i for i,t in enumerate(np,1) if norm(label) in t),None)
-            assert phys is not None,label
-            pg=f.pages[phys-1]
-            ims=pg.images
-            assert ims,(label,phys)
-            # 最大图片应落在页面主体中，左右留白至少40pt，上下不越界
-            im=max(ims,key=lambda x:(x.get("x1",0)-x.get("x0",0))*(x.get("y1",0)-x.get("y0",0)))
-            x0,x1=im.get("x0",0),im.get("x1",0)
-            top=im.get("top",0);bottom=im.get("bottom",pg.height)
-            assert x0>=35 and x1<=pg.width-35,(label,phys,x0,x1,pg.width)
-            assert top>=45 and bottom<=pg.height-45,(label,phys,top,bottom,pg.height)
-            # 图片不应占据整页造成巨大空白
-            assert (bottom-top)<=310,(label,phys,bottom-top)
+    # Word结构级检查：所有5张正文图必须是“嵌入型(inline)”而不是浮动锚点，
+    # 图片段落必须居中，宽度不超过12.6cm。这样从结构上杜绝图片横向/纵向漂移。
+    for label in ("图1-1","图2-1","图3-1","图4-1","图5-1"):
+        cap=next((p for p in d.paragraphs if norm(p.text).startswith(norm(label))),None)
+        assert cap is not None,label
+        prev=cap._p.getprevious()
+        assert prev is not None and prev.tag==qn("w:p"),label
+        assert prev.xpath(".//wp:inline"),(label,"not-inline")
+        assert not prev.xpath(".//wp:anchor"),(label,"floating-anchor")
+        jc=prev.find(qn("w:pPr"))
+        jc=jc.find(qn("w:jc")) if jc is not None else None
+        assert jc is not None and jc.get(qn("w:val"))=="center",(label,"not-centered")
+        ext=prev.xpath(".//wp:inline/wp:extent")
+        assert ext,(label,"no-extent")
+        cx=int(ext[0].get("cx"))
+        assert cx<=4536000,(label,cx)  # 12.6cm
     print("MONO_QA_OK","pages",total,"body_start",bphys,"body_pages",body_pages,"pics",len(d.inline_shapes),"tables",len(d.tables),"refs",len(refs))
 
 if __name__=="__main__":main()
