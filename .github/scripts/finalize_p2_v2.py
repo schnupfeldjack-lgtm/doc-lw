@@ -172,6 +172,43 @@ def split_before_body(d):
     carrier=OxmlElement("w:p");pp=OxmlElement("w:pPr");pp.append(pre);carrier.append(pp)
     bp._element.addprevious(carrier)
 
+def compact_toc_start(d):
+    # 目录标题独立从新页开始，但条目必须紧跟标题，避免“只有目录两个字”的空白页。
+    toc=next((p for p in d.paragraphs if norm(p.text)=="目录"),None)
+    if toc is None:
+        raise RuntimeError("找不到目录标题")
+    remove_inline_pagebreak(toc)
+    toc.paragraph_format.page_break_before=True
+    toc.paragraph_format.space_before=Pt(0)
+    toc.paragraph_format.space_after=Pt(10)
+    cur=toc._element.getnext()
+    first_text=None
+    while cur is not None:
+        if cur.tag != qn("w:p"):
+            break
+        pp=cur.find(qn("w:pPr"))
+        if pp is not None and pp.find(qn("w:sectPr")) is not None:
+            break
+        txt="".join(cur.xpath(".//w:t/text()")).strip()
+        if not txt:
+            nxt=cur.getnext()
+            cur.getparent().remove(cur)
+            cur=nxt
+            continue
+        first_text=cur
+        break
+    if first_text is not None:
+        pp=first_text.find(qn("w:pPr"))
+        if pp is None:
+            pp=OxmlElement("w:pPr");first_text.insert(0,pp)
+        pb=pp.find(qn("w:pageBreakBefore"))
+        if pb is not None:
+            pp.remove(pb)
+        sp=pp.find(qn("w:spacing"))
+        if sp is None:
+            sp=OxmlElement("w:spacing");pp.append(sp)
+        sp.set(qn("w:before"),"0")
+
 def clear_hf(part):
     root=part._element
     for c in list(root): root.remove(c)
@@ -274,6 +311,7 @@ def main():
     trim_body(d)
     format_special_pages(d)
     repair_front_paging(d)
+    compact_toc_start(d)
     split_before_body(d)
     superscript_citations(d)
     fix_headers(d)
