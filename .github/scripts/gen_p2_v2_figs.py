@@ -92,6 +92,32 @@ ax.plot([0.4,9.6],[1.1,1.1],color="black",linewidth=1)
 ax.text(5,0.55,"管理目标：前序问题前序关闭，禁止把“待确认”状态传给下一阶段",ha="center",fontsize=9.5)
 plt.tight_layout();plt.savefig(OUT/"fig3_1.png",dpi=220,bbox_inches="tight",facecolor="white");plt.close()
 
+
+# 图4-1：四类缺陷的跨阶段传播路径
+fig,ax=plt.subplots(figsize=(7.2,5.0))
+ax.set_xlim(0,10);ax.set_ylim(0,8);ax.axis("off")
+ax.text(5,7.45,"典型缺陷如何跨阶段传播并在后序放大",ha="center",fontsize=11,weight="bold")
+rows=[
+    ("生产几何偏差","出厂未识别/未隔离","拼装匹配困难","现场切改或返工"),
+    ("运输碰损","进场只核资料","连接面/止水构造受损","接口修补与渗漏风险"),
+    ("安装小偏差","只看单节是否超限","沿线连续累计","收口困难/接缝失衡"),
+    ("记录断链","异常未与构件身份绑定","责任随交接丢失","同类问题重复发生"),
+]
+yvals=[6.1,4.65,3.2,1.75]
+for ri,(a,b,d,e) in enumerate(rows):
+    y=yvals[ri]
+    for x,w,txt in [(0.15,2.05,a),(2.7,2.05,b),(5.25,2.05,d),(7.8,2.05,e)]:
+        box(ax,x,y,w,0.82,txt,8.6)
+    arrow(ax,2.2,y+0.41,2.7,y+0.41)
+    arrow(ax,4.75,y+0.41,5.25,y+0.41)
+    arrow(ax,7.3,y+0.41,7.8,y+0.41)
+ax.text(1.18,6.98,"缺陷产生",ha="center",fontsize=9.5,weight="bold")
+ax.text(3.72,6.98,"质量门失效",ha="center",fontsize=9.5,weight="bold")
+ax.text(6.27,6.98,"后序暴露",ha="center",fontsize=9.5,weight="bold")
+ax.text(8.82,6.98,"后果放大",ha="center",fontsize=9.5,weight="bold")
+ax.text(5,0.55,"优化目标：在责任交接前完成识别、隔离、整改与证据留存",ha="center",fontsize=10)
+plt.tight_layout();plt.savefig(OUT/"fig4_1.png",dpi=220,bbox_inches="tight",facecolor="white");plt.close()
+
 # 图5-1：G0-G5质量门闭环
 fig,ax=plt.subplots(figsize=(7.2,5.2))
 ax.set_xlim(0,10);ax.set_ylim(0,8);ax.axis("off")
