@@ -71,7 +71,7 @@ def main():
     assert "摘要" in np[4]
     assert "Abstract" in texts[5]
     assert "目录" in np[6]
-    bphys=next(i for i,t in enumerate(np,1) if "第1页" in t and "1引言" in t)
+    bphys=next(i for i,t in enumerate(np,1) if "1引言" in t and "研究缘起" in t)
     assert bphys==9,f"正文物理起始页应为9，实际{bphys}"
     for i in range(1,bphys):
         assert not re.search(r"第\s*\d+\s*页\s*共\s*\d+\s*页",texts[i-1]),f"前置第{i}页出现正文页码"
