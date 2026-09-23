@@ -52,8 +52,8 @@ def main():
         assert len(pngs)>=5,(len(pngs),pngs)
         assert sum(1 for s in sizes if s>120000)>=5,sizes[:10]
     # 参考文献和致谢仍靠页面上部
-    rphys=next(i for i,t in enumerate(np,1) if "参考文献" in t and "[1]" in t)
-    aphys=next(i for i,t in enumerate(np,1) if "致谢" in t and "指导老师" in t)
+    rphys=next(i for i,t in enumerate(np[bphys-1:],bphys) if "参考文献" in t and "[1]" in t)
+    aphys=next(i for i,t in enumerate(np[bphys-1:],bphys) if "致谢" in t and "指导老师" in t)
     with pdfplumber.open(pdf) as f:
         for pg,needle in ((rphys,"参考"),(aphys,"致")):
             words=f.pages[pg-1].extract_words()
