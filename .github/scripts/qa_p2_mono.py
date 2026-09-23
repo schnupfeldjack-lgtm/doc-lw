@@ -25,19 +25,26 @@ def main():
         assert 'w:fill="dce6f1"' not in xml and 'w:fill="f7f9fb"' not in xml
         for bad in ("5b9bd5","70ad47","ed7d31","8064a2","2f8f9d","c94c4c"):
             assert bad not in xml
-    # 图片二进制真实嵌入，且5张正文技术图必须是纯黑白/灰度，不允许出现彩色像素。
-    with zipfile.ZipFile(docx) as z:
-        pngs=[x for x in z.namelist() if x.startswith("word/media/") and x.endswith(".png")]
-        blobs=[(x,z.read(x)) for x in pngs]
-        big=sorted(blobs,key=lambda kv:len(kv[1]),reverse=True)[:5]
-        assert len(big)==5 and all(len(b)>100000 for _,b in big),[(n,len(b)) for n,b in big]
-        for n,b in big:
-            im=Image.open(io.BytesIO(b)).convert("RGB")
-            # 缩小后抽样，检查RGB三通道必须近似相等，即真正灰度。
-            im.thumbnail((500,500))
-            pix=list(im.getdata())
-            colored=sum(1 for rr,gg,bb in pix if max(rr,gg,bb)-min(rr,gg,bb)>3)
-            assert colored<=max(5,len(pix)//10000),(n,colored,len(pix))
+    # 精确检查正文5张技术图本身，而不是封面校徽等模板图片。
+    # 通过“图题前一段”的图片关系定位真实二进制，确保全部为灰度图。
+    checked_blobs=[]
+    for label in ("图1-1","图2-1","图3-1","图4-1","图5-1"):
+        cap=next((p for p in d.paragraphs if norm(p.text).startswith(norm(label))),None)
+        assert cap is not None,label
+        prev=cap._p.getprevious()
+        blips=prev.xpath(".//a:blip")
+        assert blips,(label,"no-blip")
+        rid=blips[0].get(qn("r:embed"))
+        assert rid in d.part.rels,(label,rid)
+        blob=d.part.rels[rid].target_part.blob
+        checked_blobs.append((label,blob))
+    assert all(len(b)>100000 for _,b in checked_blobs),[(n,len(b)) for n,b in checked_blobs]
+    for n,b in checked_blobs:
+        im=Image.open(io.BytesIO(b)).convert("RGB")
+        im.thumbnail((500,500))
+        pix=list(im.getdata())
+        colored=sum(1 for rr,gg,bb in pix if max(rr,gg,bb)-min(rr,gg,bb)>3)
+        assert colored<=max(5,len(pix)//10000),(n,colored,len(pix))
     total=pages(pdf);texts=[ptext(pdf,i) for i in range(1,total+1)];np=[norm(x) for x in texts]
     bphys=next(i for i,t in enumerate(np,1) if "1引言" in t and "市政综合管廊具有线路长" in t)
     assert bphys==9,bphys
