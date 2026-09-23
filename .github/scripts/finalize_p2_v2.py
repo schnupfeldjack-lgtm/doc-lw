@@ -234,6 +234,11 @@ def main():
     repair_front_paging(d)
     superscript_citations(d)
     fix_headers(d)
+    # 清除任何残留的“待填写”占位段，终稿不得留占位数据。
+    for p in list(d.paragraphs):
+        if "待填写" in p.text:
+            print("REMOVE_PLACEHOLDER", repr(p.text))
+            delete_p(p)
     text="\n".join(p.text for p in d.paragraphs)
     if "待填写" in text: raise RuntimeError("仍存在待填写")
     d.save(DOC)
