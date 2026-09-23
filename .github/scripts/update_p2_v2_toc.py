@@ -69,7 +69,7 @@ def rebuild_header(h,total):
 def main():
     docx=Path(sys.argv[1]);pdf=Path(sys.argv[2])
     d=Document(docx); pages=pdf_pages(pdf); np=[norm(x) for x in pages]
-    bphys=next((i for i,t in enumerate(np,1) if "1引言" in t and "研究缘起" in t),None)
+    bphys=next((i for i,t in enumerate(np,1) if "1引言" in t and "市政综合管廊具有线路长" in t),None)
     if bphys is None: raise RuntimeError("找不到正文第1页")
     bi=body_idx(d)
     ti=next(i for i,p in enumerate(d.paragraphs) if norm(p.text)=="目录")

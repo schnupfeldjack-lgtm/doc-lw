@@ -64,6 +64,8 @@ def main():
         assert len(png)>=5,(len(png),png)
     total=total_pages(pdf);texts=[ptext(pdf,i) for i in range(1,total+1)];np=[norm(x) for x in texts]
     # 前置：开题/任务/中期/封面/中摘/英摘/目录2页
+    for _i,_t in enumerate(np[:12],1):
+        print("PAGE_DIAG",_i,_t[:180])
     assert "开题报告" in np[0]
     assert "毕业论文任务书" in np[1]
     assert "中期检查" in np[2]
@@ -71,7 +73,7 @@ def main():
     assert "摘要" in np[4]
     assert "Abstract" in texts[5]
     assert "目录" in np[6]
-    bphys=next(i for i,t in enumerate(np,1) if "1引言" in t and "研究缘起" in t)
+    bphys=next(i for i,t in enumerate(np,1) if "1引言" in t and "市政综合管廊具有线路长" in t)
     assert bphys==9,f"正文物理起始页应为9，实际{bphys}"
     for i in range(1,bphys):
         assert not re.search(r"第\s*\d+\s*页\s*共\s*\d+\s*页",texts[i-1]),f"前置第{i}页出现正文页码"

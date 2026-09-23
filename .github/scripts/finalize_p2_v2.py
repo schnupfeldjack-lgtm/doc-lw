@@ -226,9 +226,24 @@ def superscript_citations(d):
             t=OxmlElement("w:t");t.text=tok;r.append(t);p._p.append(r)
     print("SUPERSCRIPT_CITATIONS",count)
 
+def remove_template_residue(d):
+    markers=[
+        "正文中公式、图与表的字体一律用5号宋体",
+        "图与表应设置在文章中首次提到处附近",
+        "参考文献著录规则",
+        "说明：请仔细阅读",
+        "说明:请仔细阅读",
+    ]
+    removed=[]
+    for p in list(d.paragraphs):
+        if any(m in p.text for m in markers):
+            removed.append(p.text[:50]); delete_p(p)
+    if removed: print("REMOVE_TEMPLATE_RESIDUE",removed)
+
 def main():
     if not DOC.exists(): raise FileNotFoundError(DOC)
     d=Document(DOC)
+    remove_template_residue(d)
     trim_body(d)
     format_special_pages(d)
     repair_front_paging(d)
