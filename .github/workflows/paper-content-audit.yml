@@ -1,0 +1,41 @@
+name: 论文原件只读核验
+on:
+  push:
+    branches: [paper-content-review-20260921]
+    paths: [.github/workflows/paper-content-audit.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: 提取模板和核验脚本，不修改论文
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import shutil
+          root = Path('新建文件夹/新建文件夹')
+          out = Path('paper-template-artifact')
+          out.mkdir()
+          for src in root.glob('*.docx'):
+              shutil.copy2(src, out/src.name)
+          for folder in [root/'.workbuddy-ai/work', root/'_排版工作区']:
+              for pattern in ['*.py', '*.txt']:
+                  for src in folder.glob(pattern):
+                      if src.stat().st_size > 1000000:
+                          continue
+                      dst = out/folder.name/src.name
+                      dst.parent.mkdir(parents=True, exist_ok=True)
+                      shutil.copy2(src, dst)
+          for src in root.glob('*.html'):
+              shutil.copy2(src, out/src.name)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper-template-and-checks
+          path: paper-template-artifact/
+          retention-days: 7
